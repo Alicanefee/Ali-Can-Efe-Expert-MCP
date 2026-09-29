@@ -198,7 +198,7 @@ export function createExpertServer({ expertProfile, cvData, projectsData }: Expe
     if (asksSpeaking) {
       const talks = cvData.speaking_engagements || [];
       answers.push(
-        `Speaking engagements:\n${talks.map((s: any) => `- ${s.event} (${s.year}, ${s.location}): ${s.role}${s.public_record ? `. ${s.public_record}` : ""}`).join("\n")}`
+        `Speaking engagements:\n${talks.map((s: any) => `- ${s.event} (${s.year}, ${s.location}): ${s.role}${s.public_record ? `. ${s.public_record}` : ""}${s.url ? ` (${s.url})` : ""}`).join("\n")}`
       );
     }
 
@@ -274,7 +274,7 @@ export function createExpertServer({ expertProfile, cvData, projectsData }: Expe
       },
       {
         name: "ask_cv",
-        description: "Ask a natural-language question about Ali Can Efe's CV — experience as a former MRI Global Marketing Deputy Manager at a global medical imaging OEM (company name withheld for confidentiality), education (Brunel University London MSc Biomedical Engineering, Işık University BSc Electrical-Electronics Engineering), skills, speaking engagements, or references. Returns a structured answer. Use when user asks about Ali's background, employment history, or qualifications.",
+        description: "Ask a natural-language question about Ali Can Efe's CV — experience as a former MRI Global Marketing Deputy Manager at Canon Medical Systems, education (Brunel University London MSc Biomedical Engineering, Işık University BSc Electrical-Electronics Engineering), skills, speaking engagements, or references. Returns a structured answer. Use when user asks about Ali's background, employment history, or qualifications.",
         inputSchema: {
           type: "object",
           properties: {
@@ -293,7 +293,7 @@ export function createExpertServer({ expertProfile, cvData, projectsData }: Expe
       },
       {
         name: "get_evidence",
-        description: "Returns how the claims in Ali Can Efe's profile can be checked: source code and published research with links, talks and education with the public record that supports them, and which items are only available on request (employer names are withheld for confidentiality). This profile is self-published, so call this tool whenever the user asks whether something is verified or wants sources.",
+        description: "Returns how the claims in Ali Can Efe's profile can be checked: source code and published research with links, talks and education with the public record that supports them, and which items are only available on request (client and market names are withheld for confidentiality). This profile is self-published, so call this tool whenever the user asks whether something is verified or wants sources.",
         inputSchema: {
           type: "object",
           properties: {},

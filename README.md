@@ -6,12 +6,12 @@ An open-source [Model Context Protocol](https://modelcontextprotocol.io) (MCP) s
 
 - Everything in this repository is written by the author. It shows what is claimed, not an independent assessment.
 - The `get_evidence` tool and the table below separate what anyone can check from what is available on request.
-- Company, client and market names are withheld or changed for confidentiality. Achievement metrics are reported as delivered.
+- Client names and market names are withheld or changed for confidentiality. The employer is named. Achievement metrics are reported as delivered.
 - Levels such as "expert" are the author's own labels. The depth is greatest in MRI / medical imaging product management and healthcare commercial strategy. Regulatory AI and financial machine learning are newer areas and are marked as such.
 
 ## About
 
-Ali Can Efe is an independent healthcare AI strategy consultant based in Dubai (since 2026). Before that he spent more than ten years in medical imaging, in MRI product management and global marketing across META (Middle East, Turkey, Africa) and APAC. MSc in Biomedical Engineering (Brunel University London) and BSc in Electrical & Electronics Engineering (Işık University, Istanbul).
+Ali Can Efe is an independent healthcare AI strategy consultant based in Dubai (since 2026). Before that he spent more than ten years at Canon Medical Systems (2015-2026), in MRI product management and global marketing across META (Middle East, Turkey, Africa) and APAC. MSc in Biomedical Engineering (Brunel University London) and BSc in Electrical & Electronics Engineering (Işık University, Istanbul).
 
 Areas covered: AI/ML integration in medical imaging, installed-base and customer-lifetime-value strategy for medical device manufacturers, regulatory AI (SaMD, EU MDR, FDA, SFDA, UAE EDE), and validation practice in financial machine learning.
 
@@ -19,10 +19,10 @@ Areas covered: AI/ML integration in medical imaging, installed-base and customer
 
 | Claim | How to check |
 |---|---|
-| Career history and contact | [LinkedIn profile](https://www.linkedin.com/in/ali-can-efe). It is written by the author. Professional references are available on request. |
-| Speaker at a Turkish Magnetic Resonance Association (TMRD) event, 2023 | Speaker listing on the association's official website |
+| Career history (Canon Medical Systems, 2015-2026) and contact | [LinkedIn profile](https://www.linkedin.com/in/ali-can-efe). It is written by the author. Professional references are available on request. |
+| Speaker at Canon satellite symposia at the Turkish Magnetic Resonance Association (TMRD) annual meetings | Official programmes on the association's website: [2022, page 10](https://tmrd.org.tr/uploads/tbl_bildiriler/62a05a9c99ced_tbl_bildiriler2022111524.pdf) ("Akıllı MR ile Üst Düzey Verimlilik: Derin Öğrenme Rekonstrüksiyon & İş Akışlarında Otomasyon") and [2023, page 8](https://tmrd.org.tr/uploads/tbl_bildiriler/646c70f541b43_tbl_bildiriler2023105325.pdf) ("PIQE ile MRI Görüntülerinin Tam Potansiyelini Keşfedin", with Katsuhiro Ito). Both were sponsor symposia, not scientific abstract sessions. The files are large (48 MB and 45 MB). |
 | Keynote speaker at Arab Health, Dubai, 2024 | Programme and session details on request |
-| BSc, ranked first in the graduating class (Işık University, 2011) | Recognized on the university's official website |
+| BSc, first in the department with a high honor degree (Işık University, 2011) | [2010-2011 graduation ceremony recording](https://www.youtube.com/watch?v=bD-lcxIjZfk&t=4800s), announcement from about 1:20:00. The recording has no captions. Official documents available on request |
 | MSc, Brunel University London (2013) | Degree certificate on request |
 | Source code and documentation | The repositories below, open for inspection |
 | Research results | [BTC machine-learning research: results and validation lessons](research/btc-ml-research-results.md). Code and data are private, so the runs cannot be reproduced. |

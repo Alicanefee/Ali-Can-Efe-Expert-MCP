@@ -1,7 +1,7 @@
 {
   "$schema": "https://ali-can-efe.dev/schemas/cv.json",
-  "summary": "Independent healthcare AI strategy consultant (2026-present) based in Dubai. Former MRI Global Marketing Deputy Manager at a global medical imaging OEM (2015-2026), with 10+ years driving MRI and medical imaging business growth across META and APAC. Specialized in AI/ML healthcare integration, CLV optimization, IB segmentation, KOL-driven market entry. Biomedical engineering + electrical-electronics engineering background.",
-  "note": "Open-source version — contact details are omitted. Names of companies, clients and markets have been changed or withheld for confidentiality; achievement metrics are shown as delivered. Full CV, professional references and anonymized case studies are available on request via LinkedIn.",
+  "summary": "Independent healthcare AI strategy consultant (2026-present) based in Dubai. Former MRI Global Marketing Deputy Manager at Canon Medical Systems (2015-2026), with 10+ years driving MRI and medical imaging business growth across META and APAC. Specialized in AI/ML healthcare integration, CLV optimization, IB segmentation, KOL-driven market entry. Biomedical engineering + electrical-electronics engineering background.",
+  "note": "Open-source version — contact details are omitted. Client names and market names are withheld or changed for confidentiality; achievement metrics are shown as delivered. Full CV, professional references and anonymized case studies are available on request via LinkedIn.",
   "experience": [
     {
       "company": "Independent Consulting Practice",
@@ -36,7 +36,7 @@
       ]
     },
     {
-      "company": "Global medical imaging OEM (former employer; name withheld for confidentiality)",
+      "company": "Canon Medical Systems (former employer)",
       "location": "Tokyo, Japan",
       "role": "MRI Global Marketing Deputy Manager / Product Owner (former)",
       "period": "2023-2026",
@@ -50,11 +50,11 @@
         "Led a global product training program reaching 400+ stakeholders, with a 10% satisfaction improvement",
         "Generated $2.5M revenue post-Arab Health via META market expansion",
         "Coordinated cross-functional alignment across HQ (R&D, Production, Legal) and 13+ regional offices",
-        "Keynote speaker at Arab Health Congress Dubai 2024; speaker at a Turkish Magnetic Resonance Association event in 2023"
+        "Keynote speaker at Arab Health Congress Dubai 2024; speaker at Canon satellite symposia at the Turkish Magnetic Resonance Association's 2022 and 2023 annual meetings"
       ]
     },
     {
-      "company": "Global medical imaging OEM (former employer; name withheld for confidentiality)",
+      "company": "Canon Medical Systems (former employer)",
       "location": "Istanbul, Turkey",
       "role": "MRI Product Manager (former)",
       "period": "2019-2023",
@@ -68,7 +68,7 @@
       ]
     },
     {
-      "company": "Global medical imaging OEM (former employer; name withheld for confidentiality)",
+      "company": "Canon Medical Systems (former employer)",
       "location": "Istanbul, Turkey",
       "role": "Service Team Leader (former)",
       "period": "2018-2019",
@@ -81,7 +81,7 @@
       ]
     },
     {
-      "company": "Global medical imaging OEM (former employer; name withheld for confidentiality)",
+      "company": "Canon Medical Systems (former employer)",
       "location": "Istanbul, Turkey",
       "role": "Service Sales Executive (former)",
       "period": "2016-2018",
@@ -93,20 +93,20 @@
       ]
     },
     {
-      "company": "Global medical imaging OEM and a laboratory-diagnostics service provider (former employers; names withheld for confidentiality)",
+      "company": "Canon Medical Systems and Elips Health (former employers)",
       "location": "Istanbul, Turkey",
       "role": "Field Service Engineer (former)",
       "period": "2015-2016",
       "highlights": [
         "Delivered multi-modality service engineering — installation, repair, preventive maintenance, and calibration",
         "Worked across Ultrasound, CT, MR, and X-Ray systems",
-        "Earlier role at the laboratory-diagnostics service provider covered analyzers from several major manufacturers"
+        "Earlier role at Elips Health covered analyzers from several major manufacturers"
       ]
     }
   ],
   "education": [
     {"institution": "Brunel University London", "degree": "MSc", "field": "Biomedical Engineering", "year": "2013"},
-    {"institution": "F.M.V. Işık University, Istanbul", "degree": "BSc", "field": "Electrical & Electronics Engineering", "year": "2011", "note": "Graduated first in class with a Grand Success Scholarship; recognized on the university's official website"}
+    {"institution": "F.M.V. Işık University, Istanbul", "degree": "BSc", "field": "Electrical & Electronics Engineering", "year": "2011", "note": "First in the Department of Electrical & Electronics Engineering with a high honor degree; Grand Success Scholarship. Announced at the 2010-2011 graduation ceremony (recording linked in the evidence list)."}
   ],
   "skills": {
     "commercial_strategy": ["Customer Lifetime Value (CLV) optimization", "Installed Base (IB) Segmentation", "Account-Based Marketing (ABM)", "Revenue Growth Strategy", "Go-To-Market Strategy"],
@@ -119,8 +119,9 @@
   },
   "speaking_engagements": [
     {"event": "Arab Health Congress", "year": 2024, "location": "Dubai, UAE", "role": "Keynote speaker on AI innovation in MRI"},
-    {"event": "Turkish Magnetic Resonance Association event", "year": 2023, "location": "Turkey", "role": "Speaker on AI-driven solutions in MRI", "public_record": "Speaker listing published on the association's official website"}
+    {"event": "Turkish Magnetic Resonance Association (TMRD) 26th Annual Scientific Meeting, Canon Medical satellite symposium", "year": 2022, "period": "26-28 May 2022", "location": "Turkey", "role": "Speaker: \"Smart MRI for top-level efficiency: deep-learning reconstruction and workflow automation\"", "title_tr": "Akıllı MR ile Üst Düzey Verimlilik: Derin Öğrenme Rekonstrüksiyon & İş Akışlarında Otomasyon", "public_record": "Listed in the official meeting programme, PDF page 10 (13:00-13:30)", "url": "https://tmrd.org.tr/uploads/tbl_bildiriler/62a05a9c99ced_tbl_bildiriler2022111524.pdf"},
+    {"event": "Turkish Magnetic Resonance Association (TMRD) 27th Annual Scientific Meeting, Canon satellite symposium", "year": 2023, "date": "2023-05-13", "location": "Ankara, Turkey", "role": "Co-presenter (with Katsuhiro Ito): \"Discover the full potential of MRI images with PIQE\"", "title_tr": "PIQE ile MRI Görüntülerinin Tam Potansiyelini Keşfedin", "public_record": "Listed in the official meeting programme, PDF page 8 (Saturday 13 May, Hall A, 11:30-12:15)", "url": "https://tmrd.org.tr/uploads/tbl_bildiriler/646c70f541b43_tbl_bildiriler2023105325.pdf"}
   ],
   "references": "Professional references (LinkedIn recommendations, client and KOL testimonials) are available on request.",
-  "confidentiality_note": "Names of companies, clients and markets have been changed or withheld for confidentiality. Achievement metrics are shown as delivered."
+  "confidentiality_note": "Client names and market names are withheld or changed for confidentiality. Achievement metrics are reported as delivered."
 }

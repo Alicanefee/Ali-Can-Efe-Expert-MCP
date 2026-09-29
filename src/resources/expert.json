@@ -13,8 +13,8 @@
     "timezone": "GMT+4",
     "previous_locations": ["Tokyo, Japan", "Istanbul, Turkey", "London, UK"]
   },
-  "short_bio": "Independent healthcare AI strategy consultant (2026-present) based in Dubai. Former MRI Global Marketing Deputy Manager at a global medical imaging OEM (2015-2026, Tokyo + Istanbul; company name withheld for confidentiality), where he led MRI global marketing across META and APAC. Specialized in AI/ML integration in healthcare, Customer Lifetime Value (CLV) optimization, Installed Base (IB) segmentation, KOL-driven market entry, and AI diagnostic imaging strategy. Background in biomedical engineering (MSc Brunel London) and electrical-electronics engineering (BSc Işık Istanbul). Active researcher in AI digital transformation of medical imaging, source-grounded AI for regulatory compliance in the MENA region, and machine-learning validation for financial time series (results published, code private).",
-  "long_bio": "Independent healthcare AI strategy consultant (2026-present) based in Dubai. Former MRI Global Marketing Deputy Manager at a global medical imaging OEM (2015-2026; company name withheld for confidentiality), where he led MRI global marketing across META and APAC regions, managing a multi-region portfolio across 4 key markets. Combines a biomedical engineering foundation (MSc Brunel University London, BSc Işık University Istanbul) with 10+ years of progressive healthcare product management experience. Specialized in AI/ML healthcare integration, Customer Lifetime Value (CLV) optimization, Installed Base (IB) segmentation, Account-Based Marketing (ABM), and KOL-driven market entry for AI diagnostic imaging. Has acted as Trusted Advisor to C-level stakeholders across 13+ regional offices. Keynote speaker at Arab Health Dubai 2024 and speaker at a Turkish Magnetic Resonance Association event in 2023. Now offers independent consulting on: (1) AI integration into radiology systems and medical imaging workflows; (2) custom model development for healthcare and financial firms; (3) AI-driven marketing strategy for medical device manufacturers; (4) customer satisfaction optimization and CLV/IB modernization programs. Active in three research areas: (1) AI/ML integration in MRI workflows and AI digital transformation in META/APAC healthcare markets; (2) deterministic, source-grounded AI agents for regulatory and legal compliance in the MENA region (an open-source SaMD regulatory and QARA playbook for product managers with an agent toolkit for EU MDR / FDA plans, plus open-source demonstrations for SFDA and UAE EDE medical device pre-checks, MENA AI regulation and UAE business setup); (3) machine-learning validation for financial time series, with results and methodology lessons from a private BTC research project published openly. Also publishes this profile as an open-source MCP (Model Context Protocol) server so that AI assistants can answer questions about it from a structured source.",
+  "short_bio": "Independent healthcare AI strategy consultant (2026-present) based in Dubai. Former MRI Global Marketing Deputy Manager at Canon Medical Systems (2015-2026, Tokyo + Istanbul), where he led MRI global marketing across META and APAC. Specialized in AI/ML integration in healthcare, Customer Lifetime Value (CLV) optimization, Installed Base (IB) segmentation, KOL-driven market entry, and AI diagnostic imaging strategy. Background in biomedical engineering (MSc Brunel London) and electrical-electronics engineering (BSc Işık Istanbul). Active researcher in AI digital transformation of medical imaging, source-grounded AI for regulatory compliance in the MENA region, and machine-learning validation for financial time series (results published, code private).",
+  "long_bio": "Independent healthcare AI strategy consultant (2026-present) based in Dubai. Former MRI Global Marketing Deputy Manager at Canon Medical Systems (2015-2026), where he led MRI global marketing across META and APAC regions, managing a multi-region portfolio across 4 key markets. Combines a biomedical engineering foundation (MSc Brunel University London, BSc Işık University Istanbul) with 10+ years of progressive healthcare product management experience. Specialized in AI/ML healthcare integration, Customer Lifetime Value (CLV) optimization, Installed Base (IB) segmentation, Account-Based Marketing (ABM), and KOL-driven market entry for AI diagnostic imaging. Has acted as Trusted Advisor to C-level stakeholders across 13+ regional offices. Keynote speaker at Arab Health Dubai 2024 and speaker at Canon satellite symposia at the Turkish Magnetic Resonance Association's annual meetings in 2022 and 2023. Now offers independent consulting on: (1) AI integration into radiology systems and medical imaging workflows; (2) custom model development for healthcare and financial firms; (3) AI-driven marketing strategy for medical device manufacturers; (4) customer satisfaction optimization and CLV/IB modernization programs. Active in three research areas: (1) AI/ML integration in MRI workflows and AI digital transformation in META/APAC healthcare markets; (2) deterministic, source-grounded AI agents for regulatory and legal compliance in the MENA region (an open-source SaMD regulatory and QARA playbook for product managers with an agent toolkit for EU MDR / FDA plans, plus open-source demonstrations for SFDA and UAE EDE medical device pre-checks, MENA AI regulation and UAE business setup); (3) machine-learning validation for financial time series, with results and methodology lessons from a private BTC research project published openly. Also publishes this profile as an open-source MCP (Model Context Protocol) server so that AI assistants can answer questions about it from a structured source.",
   "consulting_services": [
     {
       "id": "radiology-ai-integration",
@@ -95,10 +95,10 @@
       "evidence": [
         {
           "type": "employment",
-          "company": "Global medical imaging OEM, Tokyo, Japan (former employer; name withheld for confidentiality)",
+          "company": "Canon Medical Systems, Tokyo, Japan (former employer)",
           "role": "MRI Global Marketing Deputy Manager / Product Owner (former)",
           "duration": "2023-2026",
-          "summary": "Former role: led MRI global marketing across META and APAC regions. Drove $3M+ incremental revenue via CLV expansion and ABM strategies across 4 key markets. Pioneered next-generation AI diagnostic imaging market entry. Managed 13+ regional offices with 95%+ forecast accuracy in SFDC. Keynote speaker at Arab Health Dubai 2024 and speaker at a Turkish Magnetic Resonance Association event in 2023.",
+          "summary": "Former role: led MRI global marketing across META and APAC regions. Drove $3M+ incremental revenue via CLV expansion and ABM strategies across 4 key markets. Pioneered next-generation AI diagnostic imaging market entry. Managed 13+ regional offices with 95%+ forecast accuracy in SFDC. Keynote speaker at Arab Health Dubai 2024 and speaker at Canon satellite symposia at the Turkish Magnetic Resonance Association's annual meetings in 2022 and 2023.",
           "highlights": [
             "Drove CLV expansion across the installed base, generating $3M+ incremental revenue",
             "Achieved a 156% sales increase in a key APAC market, with a +2 percentage point market share gain",
@@ -112,7 +112,7 @@
         },
         {
           "type": "employment",
-          "company": "Global medical imaging OEM, Istanbul, Turkey (former employer; name withheld for confidentiality)",
+          "company": "Canon Medical Systems, Istanbul, Turkey (former employer)",
           "role": "MRI Product Manager (former)",
           "duration": "2019-2023",
           "summary": "Owned complete product lifecycle for MRI systems; developed market entry strategies enabling successful re-entry during supply disruptions. Expanded CLV through proactive installed base engagement and integrated third-party HealthCare IT solutions with measurable clinical outcome improvement.",
@@ -134,12 +134,13 @@
       "evidence": [
         {
           "type": "employment",
-          "company": "Global medical imaging OEM (former employer; name withheld for confidentiality)",
+          "company": "Canon Medical Systems (former employer)",
           "role": "MRI Global Marketing Deputy Manager (former)",
           "achievement": "Pioneered next-generation AI diagnostic imaging market entry — accelerated from no prior portfolio to first-mover advantage.",
           "speaking": [
             "Arab Health Congress Dubai 2024 — keynote on AI innovation in MRI",
-            "Turkish Magnetic Resonance Association event 2023 — AI-driven solutions presentation"
+            "TMRD 26th Annual Scientific Meeting 2022, Canon Medical satellite symposium — \"Smart MRI for top-level efficiency: deep-learning reconstruction and workflow automation\"",
+            "TMRD 27th Annual Scientific Meeting 2023, Canon satellite symposium — \"Discover the full potential of MRI images with PIQE\" (co-presenter)"
           ]
         },
         {
@@ -158,7 +159,7 @@
       "evidence": [
         {
           "type": "employment",
-          "company": "Global medical imaging OEM (former employer, 2015-2026; name withheld for confidentiality)",
+          "company": "Canon Medical Systems (former employer, 2015-2026)",
           "role": "Multiple roles (Field Service Engineer → Service Sales Executive → Service Team Leader → MRI Product Manager → MRI Global Marketing Deputy Manager)",
           "summary": "10+ year progressive career (Turkey + Tokyo) demonstrating consistent revenue growth across roles through CLV optimization, IB segmentation, and ABM methodologies. Now an independent consultant applying these methodologies to the broader healthcare AI market.",
           "highlights": [
@@ -298,11 +299,12 @@
   },
   "credentials": [
     {"type": "education", "institution": "Brunel University London", "degree": "MSc", "field": "Biomedical Engineering", "year": "2013"},
-    {"type": "education", "institution": "F.M.V. Işık University, Istanbul", "degree": "BSc", "field": "Electrical & Electronics Engineering", "year": "2011", "note": "Graduated first in class with a Grand Success Scholarship; recognized on the university's official website"}
+    {"type": "education", "institution": "F.M.V. Işık University, Istanbul", "degree": "BSc", "field": "Electrical & Electronics Engineering", "year": "2011", "note": "First in the Department of Electrical & Electronics Engineering with a high honor degree; Grand Success Scholarship. Announced at the 2010-2011 graduation ceremony (recording linked in the evidence list)."}
   ],
   "speaking_engagements": [
     {"event": "Arab Health Congress Dubai", "year": "2024", "role": "Keynote speaker on AI innovation in MRI", "location": "Dubai, UAE"},
-    {"event": "Turkish Magnetic Resonance Association event", "year": "2023", "role": "Speaker on AI-driven solutions in MRI", "location": "Turkey", "public_record": "Speaker listing published on the association's official website"}
+    {"event": "Turkish Magnetic Resonance Association (TMRD) 26th Annual Scientific Meeting, Canon Medical satellite symposium", "year": "2022", "period": "26-28 May 2022", "role": "Speaker: \"Smart MRI for top-level efficiency: deep-learning reconstruction and workflow automation\"", "title_tr": "Akıllı MR ile Üst Düzey Verimlilik: Derin Öğrenme Rekonstrüksiyon & İş Akışlarında Otomasyon", "location": "Turkey", "public_record": "Listed in the official meeting programme, PDF page 10 (13:00-13:30)", "url": "https://tmrd.org.tr/uploads/tbl_bildiriler/62a05a9c99ced_tbl_bildiriler2022111524.pdf"},
+    {"event": "Turkish Magnetic Resonance Association (TMRD) 27th Annual Scientific Meeting, Canon satellite symposium", "year": "2023", "date": "2023-05-13", "role": "Co-presenter (with Katsuhiro Ito): \"Discover the full potential of MRI images with PIQE\"", "title_tr": "PIQE ile MRI Görüntülerinin Tam Potansiyelini Keşfedin", "location": "Ankara, Turkey", "public_record": "Listed in the official meeting programme, PDF page 8 (Saturday 13 May, Hall A, 11:30-12:15)", "url": "https://tmrd.org.tr/uploads/tbl_bildiriler/646c70f541b43_tbl_bildiriler2023105325.pdf"}
   ],
   "evidence_sources": [
     {
@@ -339,10 +341,14 @@
       "note": "Results are self-reported; the project code and data are private, so the runs cannot be reproduced."
     },
     {
-      "claim": "Speaker at a Turkish Magnetic Resonance Association (TMRD) event in 2023",
+      "claim": "Speaker at Canon satellite symposia at the Turkish Magnetic Resonance Association (TMRD) annual meetings in 2022 and 2023",
       "category": "speaking",
       "verification": "publicly_verifiable",
-      "note": "The speaker listing is published on the association's official website."
+      "sources": [
+        {"name": "TMRD 26th Annual Scientific Meeting programme, 26-28 May 2022 (PDF, page 10, 48 MB)", "url": "https://tmrd.org.tr/uploads/tbl_bildiriler/62a05a9c99ced_tbl_bildiriler2022111524.pdf"},
+        {"name": "TMRD 27th Annual Scientific Meeting programme, 11-13 May 2023 (PDF, page 8, 45 MB)", "url": "https://tmrd.org.tr/uploads/tbl_bildiriler/646c70f541b43_tbl_bildiriler2023105325.pdf"}
+      ],
+      "note": "2022: \"Akıllı MR ile Üst Düzey Verimlilik: Derin Öğrenme Rekonstrüksiyon & İş Akışlarında Otomasyon\" (English: \"Smart MRI for top-level efficiency: deep-learning reconstruction and workflow automation\"), 13:00-13:30. 2023: \"PIQE ile MRI Görüntülerinin Tam Potansiyelini Keşfedin\" (English: \"Discover the full potential of MRI images with PIQE\"), Saturday 13 May, Hall A, 11:30-12:15, session chair Vural Diler, with Katsuhiro Ito. Both were sponsor satellite symposia, not part of the scientific abstract programme."
     },
     {
       "claim": "Keynote speaker at Arab Health Congress, Dubai, 2024",
@@ -351,10 +357,13 @@
       "note": "Programme and session details available on request."
     },
     {
-      "claim": "BSc Electrical & Electronics Engineering, F.M.V. Işık University (2011), ranked first in the graduating class",
+      "claim": "BSc Electrical & Electronics Engineering, F.M.V. Işık University (2011), first in the department with a high honor degree",
       "category": "education",
       "verification": "publicly_verifiable",
-      "note": "The ranking is recognized on the university's official website."
+      "sources": [
+        {"name": "Işık University 2010-2011 graduation ceremony (recording, from about 1:20:00)", "url": "https://www.youtube.com/watch?v=bD-lcxIjZfk&t=4800s"}
+      ],
+      "note": "The recording has no captions, so the announcement has to be watched. The author can also provide the official documents."
     },
     {
       "claim": "MSc Biomedical Engineering, Brunel University London (2013)",
@@ -369,10 +378,10 @@
       "sources": [
         {"name": "LinkedIn (role history)", "url": "https://www.linkedin.com/in/ali-can-efe"}
       ],
-      "note": "Employer, client and market names are withheld for confidentiality. Role history can be checked through LinkedIn, and professional references are available on request."
+      "note": "Employer: Canon Medical Systems (2015-2026). Client and market names are withheld for confidentiality. Role history can be checked through LinkedIn, and professional references are available on request."
     }
   ],
-  "privacy_policy": "Contact details (phone, email) are intentionally omitted from this open-source profile. Company, client and market names are withheld or changed for confidentiality; achievement metrics are reported as delivered. Professional references and anonymized case studies are available on request. For business inquiries, use LinkedIn. This profile is self-published: see evidence_sources for what can be checked independently and what is available on request.",
+  "privacy_policy": "Contact details (phone, email) are intentionally omitted from this open-source profile. Client names and market names are withheld or changed for confidentiality. Achievement metrics are reported as delivered. Professional references and anonymized case studies are available on request. For business inquiries, use LinkedIn. This profile is self-published: see evidence_sources for what can be checked independently and what is available on request.",
   "research_outputs": [
     {
       "type": "published_research_results",
@@ -394,5 +403,5 @@
   ],
   "last_updated": "2026-09-29",
   "version": "0.4.0",
-  "confidentiality_note": "Names of companies, clients and markets have been changed or withheld for confidentiality. Achievement metrics are reported as delivered."
+  "confidentiality_note": "Client names and market names are withheld or changed for confidentiality. Achievement metrics are reported as delivered."
 }
