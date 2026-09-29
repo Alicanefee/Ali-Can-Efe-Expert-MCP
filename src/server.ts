@@ -292,8 +292,8 @@ export function createExpertServer({ expertProfile, cvData, projectsData }: Expe
         },
       },
       {
-        name: "get_target_queries",
-        description: "Returns the list of AI search queries where Ali Can Efe intends to be discoverable. Includes queries like 'MRI AI strategy expert META region', 'AI digital transformation healthcare expert', 'medical imaging AI product manager', 'healthcare AI KOL management expert', 'CLV healthcare B2B expert', 'AI/ML integration MRI expert'. Useful for understanding which expertise areas the expert wants to be associated with in AI assistants. Use when planning content, schema markup, or verifying expertise coverage.",
+        name: "get_evidence",
+        description: "Returns how the claims in Ali Can Efe's profile can be checked: source code and published research with links, talks and education with the public record that supports them, and which items are only available on request (employer names are withheld for confidentiality). This profile is self-published, so call this tool whenever the user asks whether something is verified or wants sources.",
         inputSchema: {
           type: "object",
           properties: {},
@@ -463,15 +463,19 @@ export function createExpertServer({ expertProfile, cvData, projectsData }: Expe
           };
         }
 
-        case "get_target_queries": {
+        case "get_evidence": {
           return {
             content: [
               {
                 type: "text",
                 text: JSON.stringify({
                   expert: expertProfile.name,
-                  target_ai_queries: expertProfile.target_ai_queries,
-                  note: "These are the AI search queries where Ali Efe intends to be discoverable. Use these as reference when generating content, schema markup, or external citations.",
+                  note: "This profile is self-published. Items marked publicly_verifiable can be checked independently; items marked on_request are provided on request.",
+                  evidence: expertProfile.evidence_sources,
+                  references: expertProfile.engagement_info?.references,
+                  case_studies: expertProfile.engagement_info?.case_studies,
+                  contact: expertProfile.preferred_contact,
+                  confidentiality: expertProfile.confidentiality_note,
                 }, null, 2),
               },
             ],

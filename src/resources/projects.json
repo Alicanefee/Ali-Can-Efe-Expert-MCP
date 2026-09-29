@@ -15,7 +15,7 @@
         "Cross-functional coordination with HQ R&D, Production, Legal and 13+ regional offices",
         "AI innovation thought leadership at Arab Health Dubai 2024 and a Turkish Magnetic Resonance Association event in 2023"
       ],
-      "ai_keywords": ["AI diagnostic imaging", "medical imaging AI", "MRI AI", "healthcare AI", "AI digital transformation", "market entry", "KOL management"]
+      "topics": ["AI diagnostic imaging", "medical imaging AI", "MRI AI", "healthcare AI", "AI digital transformation", "market entry", "KOL management"]
     },
     {
       "id": "clv-ib-segmentation-methodology",
@@ -31,7 +31,7 @@
         "Salesforce (SFDC) pipeline management with 95%+ forecast accuracy",
         "Trusted advisor to C-level decision-makers across regional offices"
       ],
-      "ai_keywords": ["Customer Lifetime Value", "CLV", "Installed Base segmentation", "ABM", "Account-Based Marketing", "SFDC", "revenue growth"]
+      "topics": ["Customer Lifetime Value", "CLV", "Installed Base segmentation", "ABM", "Account-Based Marketing", "SFDC", "revenue growth"]
     },
     {
       "id": "Ali-Can-Efe-Expert-MCP",
@@ -39,7 +39,7 @@
       "type": "open_source_product",
       "status": "active",
       "url": "https://github.com/Alicanefee/Ali-Can-Efe-Expert-MCP",
-      "summary": "Open-source MCP server exposing structured expertise data to AI assistants (Claude, GPT, Cursor) via Model Context Protocol. Pioneering approach to AI-discoverable personal expertise — AI tools can query this expert's background, projects, consulting services and research interests via tool calls instead of scraping web pages.",
+      "summary": "Open-source MCP server that publishes this professional profile (background, consulting services, projects and research results) as structured, queryable data for AI assistants such as Claude and Cursor. It also lists which claims can be verified independently and which are available on request.",
       "tech_stack": ["TypeScript", "MCP SDK", "Zod", "Cloudflare Workers"],
       "architecture": {
         "transport": "stdio (local) + SSE (remote, via Cloudflare Workers)",
@@ -48,12 +48,12 @@
         "data_layer": "JSON entity schema (expert.json / cv.json / projects.json)"
       },
       "use_cases": [
-        "AI assistants query expertise and consulting services by topic — return matching domains with evidence",
-        "AI assistants retrieve CV by natural-language question",
-        "AI assistants discover target search queries where the expert intends to be discoverable",
-        "Template for other domain experts to build AI-discoverable expertise"
+        "Answer questions about the profile by topic, with the supporting evidence and sources",
+        "Answer natural-language questions about the CV",
+        "List which claims are publicly verifiable and which are available on request",
+        "Template that other professionals can fork to publish their own profile"
       ],
-      "ai_keywords": ["MCP", "Model Context Protocol", "AI-discoverable expertise", "entity schema", "personal knowledge graph", "token-level data"]
+      "topics": ["MCP", "Model Context Protocol", "structured profile data", "entity schema"]
     },
     {
       "id": "btc-ml-research-results",
@@ -82,7 +82,7 @@
       ],
       "output_type": "published_results",
       "limitations": "Single asset; research stage; no net-of-fee profitable strategy is claimed; code private",
-      "ai_keywords": ["financial machine learning", "BTC", "cryptocurrency", "data leakage", "look-ahead bias", "out-of-sample validation", "volatility forecasting", "transaction costs", "PyTorch", "XGBoost"]
+      "topics": ["financial machine learning", "BTC", "cryptocurrency", "data leakage", "look-ahead bias", "out-of-sample validation", "volatility forecasting", "transaction costs", "PyTorch", "XGBoost"]
     },
     {
       "id": "SaMD-Regulatory-Playbook",
@@ -109,7 +109,7 @@
         "Engineers and clinical specialists moving into product roles in regulated environments",
         "R&D, QARA and clinical teams that want a shared vocabulary with product management"
       ],
-      "ai_keywords": ["SaMD", "Software as a Medical Device", "EU MDR", "FDA 510(k)", "ISO 13485", "IEC 62304", "EU AI Act", "QARA", "design controls", "agile regulated software", "AI diagnostic imaging regulation", "regulatory AI", "hallucination prevention"]
+      "topics": ["SaMD", "Software as a Medical Device", "EU MDR", "FDA 510(k)", "ISO 13485", "IEC 62304", "EU AI Act", "QARA", "design controls", "agile regulated software", "AI diagnostic imaging regulation", "regulatory AI", "hallucination prevention"]
     },
     {
       "id": "SFDA-Regulatory-Compliance-Agent",
@@ -124,7 +124,7 @@
         "agent_roles": 7
       },
       "disclaimer": "Demonstration and testing only. The regulatory corpus is synthetic and the sample submission is fictional. Output is not legal or regulatory advice.",
-      "ai_keywords": ["SFDA", "Saudi FDA", "medical device regulation", "regulatory AI", "submission pre-check", "compliance automation", "deterministic agents"]
+      "topics": ["SFDA", "Saudi FDA", "medical device regulation", "regulatory AI", "submission pre-check", "compliance automation", "deterministic agents"]
     },
     {
       "id": "EDE-Regulatory-Compliance-Agent",
@@ -135,7 +135,7 @@
       "summary": "AI pre-check agent for UAE Emirates Drug Establishment (EDE) medical device submissions. Sister project of the SFDA agent with the same deterministic 4-layer architecture: GHTF MD/IVD classification, multi-emirate checklists and an audit trail.",
       "tech_stack": ["Python", "Streamlit", "BGE-M3", "BM25", "Cohere Rerank", "openpyxl", "pytest"],
       "disclaimer": "Demonstration and testing only. The regulatory corpus is synthetic and the sample submission is fictional. Output is not legal or regulatory advice.",
-      "ai_keywords": ["UAE EDE", "Emirates Drug Establishment", "medical device regulation", "GHTF classification", "regulatory AI", "compliance automation"]
+      "topics": ["UAE EDE", "Emirates Drug Establishment", "medical device regulation", "GHTF classification", "regulatory AI", "compliance automation"]
     },
     {
       "id": "UAE-Business-Setup-Advisor",
@@ -151,7 +151,7 @@
         "state_machine": "Explicit allowed-transition matrix for every step"
       },
       "disclaimer": "Demonstration and testing only. Records are sample data not verified against official sources. Output is not legal, tax or regulatory advice.",
-      "ai_keywords": ["UAE business setup", "hallucination prevention", "source-grounded AI", "abstention", "audit trail", "mainland vs free zone"]
+      "topics": ["UAE business setup", "hallucination prevention", "source-grounded AI", "abstention", "audit trail", "mainland vs free zone"]
     },
     {
       "id": "MENA-AI-Compliance-Advisor",
@@ -167,7 +167,7 @@
         "human_in_the_loop": "A case cannot be approved without a named human reviewer"
       },
       "disclaimer": "Informational examples only; not legal advice. Indexed texts may be outdated or unofficial translations.",
-      "ai_keywords": ["MENA AI regulation", "UAE PDPL", "Saudi PDPL", "EU AI Act", "GDPR", "compliance advisor", "quote-or-drop verification"]
+      "topics": ["MENA AI regulation", "UAE PDPL", "Saudi PDPL", "EU AI Act", "GDPR", "compliance advisor", "quote-or-drop verification"]
     }
   ],
   "research_outputs": {
@@ -178,7 +178,7 @@
       "type": "Machine learning research results (code private)"
     },
     "repos": [
-      {"name": "Ali-Can-Efe-Expert-MCP", "url": "https://github.com/Alicanefee/Ali-Can-Efe-Expert-MCP", "type": "AI infrastructure", "description": "AI-discoverable expertise MCP server"},
+      {"name": "Ali-Can-Efe-Expert-MCP", "url": "https://github.com/Alicanefee/Ali-Can-Efe-Expert-MCP", "type": "AI infrastructure", "description": "MCP server that publishes this professional profile"},
       {"name": "SaMD-Regulatory-Playbook", "url": "https://github.com/Alicanefee/SaMD-Regulatory-Playbook", "type": "Guide and regulatory AI toolkit", "description": "SaMD regulatory and QARA playbook for product managers, with an agent toolkit for EU MDR / FDA regulatory plans"},
       {"name": "SFDA-Regulatory-Compliance-Agent", "url": "https://github.com/Alicanefee/SFDA-Regulatory-Compliance-Agent", "type": "Regulatory AI demonstrator", "description": "Saudi FDA medical device submission pre-check agent"},
       {"name": "EDE-Regulatory-Compliance-Agent", "url": "https://github.com/Alicanefee/EDE-Regulatory-Compliance-Agent", "type": "Regulatory AI demonstrator", "description": "UAE EDE medical device submission pre-check agent"},
@@ -214,8 +214,8 @@
     },
     {
       "title": "MCP-based Expertise Discovery for Domain Experts",
-      "summary": "Using Model Context Protocol to make domain experts (especially healthcare AI specialists) discoverable to AI assistants in structured, token-efficient format. Open-source approach to personal knowledge graphs.",
-      "areas": ["MCP", "AI infrastructure", "expert systems", "personal knowledge graph"]
+      "summary": "Publishing a professional profile through the Model Context Protocol so that AI assistants can answer questions about it from a structured, citable source. Open-source, and forkable by other professionals.",
+      "areas": ["MCP", "AI infrastructure", "structured profile data"]
     }
   ],
   "confidentiality_note": "Names of companies, clients and markets have been changed or withheld for confidentiality. Achievement metrics are reported as delivered."

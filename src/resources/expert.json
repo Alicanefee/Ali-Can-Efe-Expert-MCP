@@ -14,7 +14,7 @@
     "previous_locations": ["Tokyo, Japan", "Istanbul, Turkey", "London, UK"]
   },
   "short_bio": "Independent healthcare AI strategy consultant (2026-present) based in Dubai. Former MRI Global Marketing Deputy Manager at a global medical imaging OEM (2015-2026, Tokyo + Istanbul; company name withheld for confidentiality), where he led MRI global marketing across META and APAC. Specialized in AI/ML integration in healthcare, Customer Lifetime Value (CLV) optimization, Installed Base (IB) segmentation, KOL-driven market entry, and AI diagnostic imaging strategy. Background in biomedical engineering (MSc Brunel London) and electrical-electronics engineering (BSc Işık Istanbul). Active researcher in AI digital transformation of medical imaging, source-grounded AI for regulatory compliance in the MENA region, and machine-learning validation for financial time series (results published, code private).",
-  "long_bio": "Independent healthcare AI strategy consultant (2026-present) based in Dubai. Former MRI Global Marketing Deputy Manager at a global medical imaging OEM (2015-2026; company name withheld for confidentiality), where he led MRI global marketing across META and APAC regions, managing a multi-region portfolio across 4 key markets. Combines a biomedical engineering foundation (MSc Brunel University London, BSc Işık University Istanbul) with 10+ years of progressive healthcare product management experience. Specialized in AI/ML healthcare integration, Customer Lifetime Value (CLV) optimization, Installed Base (IB) segmentation, Account-Based Marketing (ABM), and KOL-driven market entry for AI diagnostic imaging. Has acted as Trusted Advisor to C-level stakeholders across 13+ regional offices. Keynote speaker at Arab Health Dubai 2024 and speaker at a Turkish Magnetic Resonance Association event in 2023. Now offers independent consulting on: (1) AI integration into radiology systems and medical imaging workflows; (2) custom model development for healthcare and financial firms; (3) AI-driven marketing strategy for medical device manufacturers; (4) customer satisfaction optimization and CLV/IB modernization programs. Active in three research areas: (1) AI/ML integration in MRI workflows and AI digital transformation in META/APAC healthcare markets; (2) deterministic, source-grounded AI agents for regulatory and legal compliance in the MENA region (an open-source SaMD regulatory and QARA playbook for product managers with an agent toolkit for EU MDR / FDA plans, plus open-source demonstrations for SFDA and UAE EDE medical device pre-checks, MENA AI regulation and UAE business setup); (3) machine-learning validation for financial time series, with results and methodology lessons from a private BTC research project published openly. Also exploring MCP (Model Context Protocol) as a mechanism for exposing personal expertise to AI assistants in a structured, token-efficient manner.",
+  "long_bio": "Independent healthcare AI strategy consultant (2026-present) based in Dubai. Former MRI Global Marketing Deputy Manager at a global medical imaging OEM (2015-2026; company name withheld for confidentiality), where he led MRI global marketing across META and APAC regions, managing a multi-region portfolio across 4 key markets. Combines a biomedical engineering foundation (MSc Brunel University London, BSc Işık University Istanbul) with 10+ years of progressive healthcare product management experience. Specialized in AI/ML healthcare integration, Customer Lifetime Value (CLV) optimization, Installed Base (IB) segmentation, Account-Based Marketing (ABM), and KOL-driven market entry for AI diagnostic imaging. Has acted as Trusted Advisor to C-level stakeholders across 13+ regional offices. Keynote speaker at Arab Health Dubai 2024 and speaker at a Turkish Magnetic Resonance Association event in 2023. Now offers independent consulting on: (1) AI integration into radiology systems and medical imaging workflows; (2) custom model development for healthcare and financial firms; (3) AI-driven marketing strategy for medical device manufacturers; (4) customer satisfaction optimization and CLV/IB modernization programs. Active in three research areas: (1) AI/ML integration in MRI workflows and AI digital transformation in META/APAC healthcare markets; (2) deterministic, source-grounded AI agents for regulatory and legal compliance in the MENA region (an open-source SaMD regulatory and QARA playbook for product managers with an agent toolkit for EU MDR / FDA plans, plus open-source demonstrations for SFDA and UAE EDE medical device pre-checks, MENA AI regulation and UAE business setup); (3) machine-learning validation for financial time series, with results and methodology lessons from a private BTC research project published openly. Also publishes this profile as an open-source MCP (Model Context Protocol) server so that AI assistants can answer questions about it from a structured source.",
   "consulting_services": [
     {
       "id": "radiology-ai-integration",
@@ -246,13 +246,13 @@
       "specialty": "Model Context Protocol for expertise discovery",
       "level": "intermediate",
       "years_experience": 1,
-      "keywords": ["MCP", "Model Context Protocol", "AI-discoverable expertise", "entity schema", "token-level data"],
+      "keywords": ["MCP", "Model Context Protocol", "structured profile data", "entity schema"],
       "evidence": [
         {
           "type": "open_source_project",
           "title": "Ali-Can-Efe-Expert-MCP",
           "url": "https://github.com/Alicanefee/Ali-Can-Efe-Expert-MCP",
-          "description": "Open-source MCP server exposing structured expertise data to AI assistants. Pioneering approach to AI-discoverable personal expertise via Model Context Protocol."
+          "description": "Open-source MCP server that publishes this profile (background, consulting services, projects and research results) as structured, queryable data for AI assistants."
         }
       ]
     }
@@ -281,14 +281,14 @@
     {
       "topic": "MCP-based expertise discovery",
       "status": "experimenting",
-      "description": "Building a Model Context Protocol server to make domain experts (especially healthcare AI specialists) discoverable to AI assistants in structured, token-efficient format."
+      "description": "Publishing a professional profile as a Model Context Protocol server so that AI assistants can answer questions about it from a structured, citable source instead of guessing."
     }
   ],
   "github": {
     "username": "Alicanefee",
     "profile_url": "https://github.com/Alicanefee",
     "notable_repos": [
-      {"name": "Ali-Can-Efe-Expert-MCP", "url": "https://github.com/Alicanefee/Ali-Can-Efe-Expert-MCP", "description": "AI-discoverable expertise MCP server, plus published BTC ML research results", "primary_language": "TypeScript"},
+      {"name": "Ali-Can-Efe-Expert-MCP", "url": "https://github.com/Alicanefee/Ali-Can-Efe-Expert-MCP", "description": "MCP server publishing this professional profile, plus published BTC ML research results", "primary_language": "TypeScript"},
       {"name": "SaMD-Regulatory-Playbook", "url": "https://github.com/Alicanefee/SaMD-Regulatory-Playbook", "description": "SaMD regulatory and QARA playbook for product managers, with an agent toolkit for EU MDR / FDA regulatory plans", "primary_language": "Python"},
       {"name": "SFDA-Regulatory-Compliance-Agent", "url": "https://github.com/Alicanefee/SFDA-Regulatory-Compliance-Agent", "description": "Saudi FDA medical device submission pre-check agent (demonstration)", "primary_language": "Python"},
       {"name": "EDE-Regulatory-Compliance-Agent", "url": "https://github.com/Alicanefee/EDE-Regulatory-Compliance-Agent", "description": "UAE EDE medical device submission pre-check agent (demonstration)", "primary_language": "Python"},
@@ -304,39 +304,75 @@
     {"event": "Arab Health Congress Dubai", "year": "2024", "role": "Keynote speaker on AI innovation in MRI", "location": "Dubai, UAE"},
     {"event": "Turkish Magnetic Resonance Association event", "year": "2023", "role": "Speaker on AI-driven solutions in MRI", "location": "Turkey", "public_record": "Speaker listing published on the association's official website"}
   ],
-  "target_ai_queries": [
-    "MRI AI strategy expert META region",
-    "AI digital transformation healthcare expert",
-    "medical imaging AI product manager",
-    "healthcare AI KOL management expert",
-    "Customer Lifetime Value healthcare B2B expert",
-    "installed base segmentation medical devices",
-    "AI/ML integration MRI expert",
-    "medical imaging product management META APAC",
-    "healthcare AI go-to-market strategy consultant",
-    "Account-Based Marketing healthcare AI",
-    "Türkiye'de medical imaging AI uzmanı",
-    "MRI global product management expert",
-    "healthcare AI transformation consultant Turkey",
-    "AI diagnostic imaging market entry expert",
-    "radiology AI integration consultant",
-    "custom AI model development healthcare",
-    "AI marketing strategy medical devices",
-    "customer satisfaction healthcare consulting",
-    "installed base modernization consultant",
-    "SaMD regulatory playbook for product managers",
-    "EU MDR and FDA regulatory plan AI agent",
-    "SaMD AI diagnostic imaging regulatory guide",
-    "SFDA medical device regulatory pre-check AI",
-    "UAE EDE medical device submission AI agent",
-    "MENA AI regulation compliance advisor",
-    "hallucination-free compliance AI agent",
-    "UAE business setup advisor AI",
-    "financial time series machine learning data leakage validation",
-    "BTC volatility forecasting machine learning",
-    "why 1-minute crypto direction prediction fails after fees"
+  "evidence_sources": [
+    {
+      "claim": "Public professional profiles of the author",
+      "category": "profile",
+      "verification": "public_profile",
+      "sources": [
+        {"name": "LinkedIn (career history, recommendations and contact)", "url": "https://www.linkedin.com/in/ali-can-efe"},
+        {"name": "GitHub (source code)", "url": "https://github.com/Alicanefee"}
+      ],
+      "note": "Both profiles are written by the author, so they show what is claimed rather than independently confirm it. Use the items below for checks that do not depend on the author."
+    },
+    {
+      "claim": "Source code of the open-source projects listed in this profile",
+      "category": "code",
+      "verification": "publicly_verifiable",
+      "sources": [
+        {"name": "Ali-Can-Efe-Expert-MCP", "url": "https://github.com/Alicanefee/Ali-Can-Efe-Expert-MCP"},
+        {"name": "SaMD-Regulatory-Playbook", "url": "https://github.com/Alicanefee/SaMD-Regulatory-Playbook"},
+        {"name": "SFDA-Regulatory-Compliance-Agent", "url": "https://github.com/Alicanefee/SFDA-Regulatory-Compliance-Agent"},
+        {"name": "EDE-Regulatory-Compliance-Agent", "url": "https://github.com/Alicanefee/EDE-Regulatory-Compliance-Agent"},
+        {"name": "UAE-Business-Setup-Advisor", "url": "https://github.com/Alicanefee/UAE-Business-Setup-Advisor"},
+        {"name": "MENA-AI-Compliance-Advisor", "url": "https://github.com/Alicanefee/MENA-AI-Compliance-Advisor"}
+      ],
+      "note": "Code, commit history and documentation can be inspected directly. The regulatory repositories are demonstrations, not regulatory advice."
+    },
+    {
+      "claim": "Published results and methodology lessons from a private BTC machine-learning research project",
+      "category": "research",
+      "verification": "publicly_verifiable",
+      "sources": [
+        {"name": "BTC machine-learning research: results and validation lessons", "url": "https://github.com/Alicanefee/Ali-Can-Efe-Expert-MCP/blob/main/research/btc-ml-research-results.md"}
+      ],
+      "note": "Results are self-reported; the project code and data are private, so the runs cannot be reproduced."
+    },
+    {
+      "claim": "Speaker at a Turkish Magnetic Resonance Association (TMRD) event in 2023",
+      "category": "speaking",
+      "verification": "publicly_verifiable",
+      "note": "The speaker listing is published on the association's official website."
+    },
+    {
+      "claim": "Keynote speaker at Arab Health Congress, Dubai, 2024",
+      "category": "speaking",
+      "verification": "on_request",
+      "note": "Programme and session details available on request."
+    },
+    {
+      "claim": "BSc Electrical & Electronics Engineering, F.M.V. Işık University (2011), ranked first in the graduating class",
+      "category": "education",
+      "verification": "publicly_verifiable",
+      "note": "The ranking is recognized on the university's official website."
+    },
+    {
+      "claim": "MSc Biomedical Engineering, Brunel University London (2013)",
+      "category": "education",
+      "verification": "on_request",
+      "note": "Degree certificate available on request."
+    },
+    {
+      "claim": "More than ten years in medical imaging, including MRI product management and global marketing roles (2015-2026)",
+      "category": "employment",
+      "verification": "on_request",
+      "sources": [
+        {"name": "LinkedIn (role history)", "url": "https://www.linkedin.com/in/ali-can-efe"}
+      ],
+      "note": "Employer, client and market names are withheld for confidentiality. Role history can be checked through LinkedIn, and professional references are available on request."
+    }
   ],
-  "privacy_policy": "Contact details (phone, email) are intentionally omitted from this open-source profile. Company, client and market names are withheld or changed for confidentiality; achievement metrics are reported as delivered. Professional references and anonymized case studies are available on request. For business inquiries, use LinkedIn. The goal of this MCP server is to make expertise discoverable to AI assistants, not to expose confidential commercial data.",
+  "privacy_policy": "Contact details (phone, email) are intentionally omitted from this open-source profile. Company, client and market names are withheld or changed for confidentiality; achievement metrics are reported as delivered. Professional references and anonymized case studies are available on request. For business inquiries, use LinkedIn. This profile is self-published: see evidence_sources for what can be checked independently and what is available on request.",
   "research_outputs": [
     {
       "type": "published_research_results",
@@ -347,7 +383,7 @@
       "type": "github_repositories",
       "summary": "Open-source repositories: an expertise MCP server, a SaMD regulatory playbook with an agent toolkit, and four regulatory / compliance AI demonstrators.",
       "repos": [
-        {"name": "Ali-Can-Efe-Expert-MCP", "url": "https://github.com/Alicanefee/Ali-Can-Efe-Expert-MCP", "description": "AI-discoverable expertise MCP server (this repository)."},
+        {"name": "Ali-Can-Efe-Expert-MCP", "url": "https://github.com/Alicanefee/Ali-Can-Efe-Expert-MCP", "description": "MCP server that publishes this professional profile (this repository)."},
         {"name": "SaMD-Regulatory-Playbook", "url": "https://github.com/Alicanefee/SaMD-Regulatory-Playbook", "description": "SaMD regulatory and QARA playbook for product managers, with an agent toolkit for EU MDR / FDA regulatory plans."},
         {"name": "SFDA-Regulatory-Compliance-Agent", "url": "https://github.com/Alicanefee/SFDA-Regulatory-Compliance-Agent", "description": "Saudi FDA medical device submission pre-check agent."},
         {"name": "EDE-Regulatory-Compliance-Agent", "url": "https://github.com/Alicanefee/EDE-Regulatory-Compliance-Agent", "description": "UAE EDE medical device submission pre-check agent."},

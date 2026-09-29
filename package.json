@@ -1,7 +1,7 @@
 {
   "name": "ali-efe-expert-mcp",
   "version": "0.4.0",
-  "description": "AI-discoverable expertise MCP server - exposes personal expertise, projects, and research areas to AI tools (Claude, GPT, Cursor) via Model Context Protocol",
+  "description": "MCP server that publishes a structured, self-published professional profile (background, consulting services, projects, research results) to AI assistants via the Model Context Protocol",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
@@ -21,14 +21,13 @@
   "keywords": [
     "mcp",
     "model-context-protocol",
-    "expertise",
-    "ai-discovery",
-    "finanical-ai",
-    "cnn",
+    "professional-profile",
+    "healthcare-ai",
     "medical-imaging",
-    "digital-transformation"
+    "regulatory-ai",
+    "cloudflare-workers"
   ],
-  "author": "Ali Efe",
+  "author": "Ali Can Efe",
   "license": "MIT",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.31.0",

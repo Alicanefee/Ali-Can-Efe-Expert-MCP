@@ -17,7 +17,7 @@ If you have an idea for a new tool that would make this expertise server more us
 
 ## 3. Using this as a template for your own expertise server
 
-Yes! This repo is intentionally MIT-licensed so other domain experts can fork it and build their own AI-discoverable expertise servers. If you do, please:
+Yes! This repo is intentionally MIT-licensed so other professionals can fork it and publish their own profile as an MCP server. If you do, please:
 
 - Keep the LICENSE file (or replace with your own)
 - Update `expert.json`, `cv.json`, `projects.json` with your own data

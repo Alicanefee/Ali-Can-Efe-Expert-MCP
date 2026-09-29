@@ -1,105 +1,97 @@
-# Ali Can Efe — Expertise MCP Server
+# Ali Can Efe: Professional Profile MCP Server
 
-AI asistanlarına (Claude Desktop, Cursor, ChatGPT, vb.) uzmanlığınızı **yapılandırılmış, token-dostu formatta** sunan kişisel MCP (Model Context Protocol) server.
+An open-source [Model Context Protocol](https://modelcontextprotocol.io) (MCP) server that publishes one professional profile as structured data: background, consulting services, projects and published research results. An AI assistant connected to it can answer questions such as "What has Ali worked on in medical AI?" from a single, citable source instead of piecing the answer together from scattered web pages.
 
-## Hakkında
+## Read this first: it is a self-published profile
 
-Ali Can Efe — Independent healthcare AI strategy consultant (2026-present) based in Dubai. Former MRI Global Marketing Deputy Manager at a global medical imaging OEM (2015-2026, Tokyo + Istanbul; company name withheld for confidentiality). Specialized in:
-- AI/ML integration in healthcare
-- Customer Lifetime Value (CLV) optimization & Installed Base (IB) segmentation
-- KOL-driven market entry
-- Healthcare AI digital transformation
+- Everything in this repository is written by the author. It shows what is claimed, not an independent assessment.
+- The `get_evidence` tool and the table below separate what anyone can check from what is available on request.
+- Company, client and market names are withheld or changed for confidentiality. Achievement metrics are reported as delivered.
+- Levels such as "expert" are the author's own labels. The depth is greatest in MRI / medical imaging product management and healthcare commercial strategy. Regulatory AI and financial machine learning are newer areas and are marked as such.
 
-Background: MSc Biomedical Engineering (Brunel University London), BSc Electrical & Electronics Engineering (Işık University Istanbul). Keynote speaker at Arab Health Dubai 2024 and speaker at a Turkish Magnetic Resonance Association event in 2023.
+## About
 
-> Şirket, müşteri ve pazar isimleri gizlilik nedeniyle değiştirilmiş veya belirtilmemiştir; başarı metrikleri gerçekleştiği şekliyle verilmiştir. Referanslar ve anonimleştirilmiş vaka çalışmaları talep üzerine paylaşılır.
+Ali Can Efe is an independent healthcare AI strategy consultant based in Dubai (since 2026). Before that he spent more than ten years in medical imaging, in MRI product management and global marketing across META (Middle East, Turkey, Africa) and APAC. MSc in Biomedical Engineering (Brunel University London) and BSc in Electrical & Electronics Engineering (Işık University, Istanbul).
 
-Yayınlanan araştırma sonuçları: [BTC machine-learning research — results and validation lessons](research/btc-ml-research-results.md) (kod özeldir, yalnızca sonuçlar açıktır; yatırım tavsiyesi değildir).
+Areas covered: AI/ML integration in medical imaging, installed-base and customer-lifetime-value strategy for medical device manufacturers, regulatory AI (SaMD, EU MDR, FDA, SFDA, UAE EDE), and validation practice in financial machine learning.
 
-## Neden Bu Server Var?
+## Evidence and sources
 
-Klasik web aramasında isminizin çıkması yeterli değil. Bir kullanıcı ChatGPT'ye
-"AI digital transformation healthcare expert META region kim?" diye sorduğunda,
-modelin **cevap olarak sizi önermesi** için uzmanlığınızın:
+| Claim | How to check |
+|---|---|
+| Career history and contact | [LinkedIn profile](https://www.linkedin.com/in/ali-can-efe). It is written by the author. Professional references are available on request. |
+| Speaker at a Turkish Magnetic Resonance Association (TMRD) event, 2023 | Speaker listing on the association's official website |
+| Keynote speaker at Arab Health, Dubai, 2024 | Programme and session details on request |
+| BSc, ranked first in the graduating class (Işık University, 2011) | Recognized on the university's official website |
+| MSc, Brunel University London (2013) | Degree certificate on request |
+| Source code and documentation | The repositories below, open for inspection |
+| Research results | [BTC machine-learning research: results and validation lessons](research/btc-ml-research-results.md). Code and data are private, so the runs cannot be reproduced. |
 
-1. Yapılandırılmış (`expert.json` — entity şeması)
-2. Erişilebilir (MCP tool'ları)
-3. Doğrulanmış (evidence: iş geçmişi, konuşmalar, GitHub repoları)
-4. Alıntılanabilir (net, kesin ifadeler)
+### Projects
 
-olması gerekir. Bu server tam bunu yapar — kişisel verilerinizi bir entity şemasında
-tutar ve AI'lara 6 ayrı tool üzerinden sorgulanabilir hale getirir.
+| Repository | What it is |
+|---|---|
+| [Ali-Can-Efe-Expert-MCP](https://github.com/Alicanefee/Ali-Can-Efe-Expert-MCP) | This server |
+| [SaMD-Regulatory-Playbook](https://github.com/Alicanefee/SaMD-Regulatory-Playbook) | Guides, templates and an agent toolkit for SaMD regulatory planning (EU MDR, FDA). Educational material, not regulatory advice |
+| [SFDA-Regulatory-Compliance-Agent](https://github.com/Alicanefee/SFDA-Regulatory-Compliance-Agent) | Saudi FDA medical device submission pre-check agent. Demonstration with synthetic data |
+| [EDE-Regulatory-Compliance-Agent](https://github.com/Alicanefee/EDE-Regulatory-Compliance-Agent) | UAE Emirates Drug Establishment pre-check agent. Demonstration with synthetic data |
+| [UAE-Business-Setup-Advisor](https://github.com/Alicanefee/UAE-Business-Setup-Advisor) | Evidence-backed UAE business setup advisor that abstains without a verified source. Demonstration with sample data |
+| [MENA-AI-Compliance-Advisor](https://github.com/Alicanefee/MENA-AI-Compliance-Advisor) | Source-grounded compliance support for AI adoption in the Middle East. Informational examples only |
 
-## Hızlı Başlangıç
+The regulatory repositories are demonstrations and are not legal or regulatory advice. The research document is not investment advice.
 
-### 1. Bağımlılıkları yükleyin
+## Connect
+
+Remote endpoint (Streamable HTTP): `https://ali-can-efe-mcp.alicanefe61.workers.dev/mcp`
+
+Cursor and other clients with native remote support:
+
+```json
+{ "mcpServers": { "ali-can-efe-expert": { "url": "https://ali-can-efe-mcp.alicanefe61.workers.dev/mcp" } } }
+```
+
+Claude Desktop, through the `mcp-remote` proxy (or add the URL as a custom connector):
+
+```json
+{
+  "mcpServers": {
+    "ali-can-efe-expert": {
+      "command": "npx",
+      "args": ["-y", "mcp-remote", "https://ali-can-efe-mcp.alicanefe61.workers.dev/mcp"]
+    }
+  }
+}
+```
+
+To run it locally over stdio instead, see [Run locally](#run-locally) and the templates in `config/`.
+
+## Tools and resources
+
+| Tool | Purpose |
+|---|---|
+| `query_expertise` | Search expertise areas and consulting services by topic, with supporting evidence |
+| `get_projects` | List projects, repositories and research interests |
+| `get_project_details` | Details of one project or consulting service by ID |
+| `ask_cv` | Answer a natural-language question about roles, skills, education or talks |
+| `get_active_research` | Current research interests |
+| `get_evidence` | Which claims can be checked, with links, and which are available on request |
+
+Resources: `expert://profile`, `expert://cv`, `expert://projects`.
+
+## Run locally
+
 ```bash
-cd ali-efe-mcp
 npm install
-```
-
-### 2. Kişisel bilgilerinizi doldurun
-Şu dosyaları edit edin:
-- `src/resources/expert.json` — Ana uzmanlık profili (isim, alanlar, hedef sorgular)
-- `src/resources/cv.json` — İş geçmişi, eğitim, yetenekler
-- `src/resources/projects.json` — GitHub repoları, araştırma ilgi alanları
-
-> Tüm `YOUR_GITHUB` placeholder'ları zaten `Alicanefee` olarak ayarlı.
-> Eğer farklı bir GitHub username kullanmak istiyorsanız `expert.json` ve `projects.json` dosyalarında değişiklik yapın.
-
-### 3. Build edin
-```bash
 npm run build
+node dist/index.js        # stdio server
+npm run inspector         # test the tools in the MCP Inspector
 ```
 
-### 4. Local test (MCP Inspector ile)
-```bash
-npm run inspector
-```
-Tarayıcıda açılan Inspector ile tool'ları test edebilirsiniz.
+The profile data lives in `src/resources/` (`expert.json`, `cv.json`, `projects.json`). The server core is `src/server.ts`; `src/index.ts` is the stdio entry point.
 
-## Claude Desktop'a Ekleme
+## Deploy your own on Cloudflare Workers
 
-`~/Library/Application Support/Claude/claude_desktop_config.json` (macOS) veya
-`%APPDATA%\Claude\claude_desktop_config.json` (Windows) dosyasına şunu ekleyin:
-
-```json
-{
-  "mcpServers": {
-    "ali-efe-expert": {
-      "command": "node",
-      "args": ["/absolute/path/to/ali-efe-mcp/dist/index.js"]
-    }
-  }
-}
-```
-
-Hazır şablon: `config/claude-desktop.json`
-
-Claude Desktop'ı yeniden başlatın. Artık Claude sorguladığında "ali-efe-expert"
-server'ı otomatik çağrılır.
-
-## Cursor'a Ekleme
-
-Proje kökünde `.cursor/mcp.json` dosyası oluşturun:
-```json
-{
-  "mcpServers": {
-    "ali-efe-expert": {
-      "command": "node",
-      "args": ["./dist/index.js"]
-    }
-  }
-}
-```
-
-Hazır şablon: `config/cursor-mcp.json`
-
-## Remote Deploy (Cloudflare Workers)
-
-Başkalarının da MCP server'ınızı kullanabilmesi için. Worker, yerel sunucuyla aynı
-çekirdeği (`src/server.ts`) ve `src/resources/*.json` dosyalarını kullanır; veri deploy
-sırasında pakete gömülür. Taşıma katmanı Streamable HTTP'dir (durumsuz, JSON yanıt).
+The worker reuses the same core and bundles the JSON files at deploy time. It is stateless and answers over Streamable HTTP.
 
 ```bash
 npm install
@@ -107,90 +99,12 @@ npx wrangler login
 npm run deploy:cloudflare
 ```
 
-Deploy sonrası adresler (workers.dev alt alan adınız deploy çıktısında yazar):
+Check a deployment with `npm run smoke:remote -- https://<your-worker>.workers.dev/mcp`. For automatic deploys from GitHub Actions, add the repository secrets `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` (see `.github/workflows/deploy.yml`).
 
-- `https://ali-can-efe-mcp.<subdomain>.workers.dev/` — bilgi sayfası ve istemci ayar örnekleri
-- `https://ali-can-efe-mcp.<subdomain>.workers.dev/mcp` — MCP uç noktası
+## Use it as a template
 
-Doğrulama (yerelde `npm run deploy:dev`, canlıda URL vererek):
+The code is MIT-licensed, so you can fork it and publish your own profile. Replace the three JSON files, keep the separation between publicly verifiable claims and claims available on request, and rename the tool descriptions.
 
-```bash
-npm run smoke:remote -- https://ali-can-efe-mcp.<subdomain>.workers.dev/mcp
-```
+## License
 
-İstemci ayarı: Cursor gibi uzak sunucuyu doğrudan destekleyen istemcilerde `{"url": ".../mcp"}`;
-Claude Desktop'ta özel connector olarak URL'yi ekleyin veya `npx -y mcp-remote <URL>` proxy'sini kullanın.
-
-Bu URL'i MCP dizinlerine (`mcp.so`, `glama.ai/mcp`) ekleyin.
-
-GitHub Actions ile otomatik deploy için `CLOUDFLARE_API_TOKEN` ve `CLOUDFLARE_ACCOUNT_ID`
-repository secret'larını tanımlayın (`.github/workflows/deploy.yml`).
-
-## Sağlanan Tool'lar
-
-| Tool | Açıklama |
-|------|---------|
-| `query_expertise` | Konu/keyword ile uzmanlık alanı ara |
-| `get_projects` | Tüm GitHub projelerini ve araştırmaları listele |
-| `get_project_details` | Belirli bir projenin detaylı mimarisini ver |
-| `ask_cv` | CV hakkında doğal dilde soru sor |
-| `get_active_research` | Mevcut araştırma ilgi alanlarını ver |
-| `get_target_queries` | Hangi AI sorgularında çıkmak istediğinizi listele |
-
-## Sağlanan Kaynaklar (Resources)
-
-- `expert://profile` — Tam uzmanlık profili (entity şeması)
-- `expert://cv` — Tam CV
-- `expert://projects` — Tüm projeler ve araştırmalar
-
-## Hedef AI Sorguları
-
-Hangi aramalarda çıkmak istediğinizü `TARGET_QUERIES.md` dosyasında detaylıca listeledik.
-Özet:
-
-- **Medical imaging AI**: "AI digital transformation medical imaging expert", "MRI AI strategy expert META region"
-- **Regulatory / compliance AI**: "SFDA medical device regulatory pre-check AI", "MENA AI compliance advisor"
-- **Financial ML validation**: "financial time series machine learning data leakage", "BTC volatility forecasting"
-- **MCP infrastructure**: "MCP server expertise discovery"
-
-## Dosya Yapısı
-
-```
-ali-efe-mcp/
-├── package.json
-├── tsconfig.json
-├── wrangler.toml              # Cloudflare config
-├── tsconfig.worker.json        # Worker tip kontrolü
-├── TARGET_QUERIES.md           # Hedef AI sorguları listesi
-├── README.md                   # Bu dosya
-├── research/
-│   └── btc-ml-research-results.md  # Yayınlanan araştırma sonuçları (kod özel)
-├── src/
-│   ├── server.ts               # Taşıma katmanından bağımsız MCP çekirdeği (tool'lar + resource'lar)
-│   ├── index.ts                # Yerel stdio girişi
-│   └── resources/
-│       ├── expert.json         # Entity şeması
-│       ├── cv.json             # CV
-│       └── projects.json       # Projeler + araştırmalar
-├── config/
-│   ├── claude-desktop.json     # Claude Desktop config şablonu
-│   └── cursor-mcp.json         # Cursor config şablonu
-├── scripts/
-│   └── smoke-remote.mjs        # Uzak (HTTP) uç nokta doğrulama betiği
-└── deploy/
-    └── cloudflare-worker.ts    # Cloudflare Worker girişi (Streamable HTTP)
-```
-
-## Sonraki Adımlar
-
-1. **Kişiselleştirme**: `expert.json`, `cv.json`, `projects.json` dosyalarındaki
-   varsa kalan PLACEHOLDER değerlerini doldurun
-2. **Wikipedia/Wikidata**: Kendi adınıza Wikipedia maddesi oluşturun (basın kaynaklarıyla)
-3. **Schema.org**: Kişisel web sitenize `Person` tipinde yapılandırılmış veri ekleyin
-4. **LinkedIn makalesi**: "AI-discoverable expertise via MCP" başlıklı bir makale yayınlayın
-5. **mcp.so kaydı**: MCP dizinine server'ınızı ekleyin
-6. **YouTube/Substack**: Konsepti anlatan bir video/seri oluşturun
-
-## Lisans
-
-MIT — Dilediğiniz gibi kullanın, fork edin, paylaşın.
+MIT

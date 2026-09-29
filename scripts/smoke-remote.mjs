@@ -57,7 +57,7 @@ check("initialize", init.status === 200 && init.body?.result?.serverInfo?.name =
 
 const tools = await rpc("tools/list", {});
 const toolNames = (tools.body?.result?.tools ?? []).map((t) => t.name);
-check("tools/list", toolNames.length === 6, toolNames.join(", "));
+check("tools/list", toolNames.length === 6 && toolNames.includes("get_evidence"), toolNames.join(", "));
 
 // 3. Tool behaviour
 const q = await callTool("query_expertise", { topic: "SaMD regulatory playbook for product managers" });
@@ -74,6 +74,10 @@ check("get_project_details reports unknown id as error", missing.isError === tru
 
 const cv = await callTool("ask_cv", { question: "What did Ali achieve as MRI Product Manager?" });
 check("ask_cv answers from CV", typeof cv.data.answer === "string" && cv.data.answer.includes("MRI Product Manager"));
+
+const evidence = await callTool("get_evidence", {});
+const sources = evidence.data.evidence ?? [];
+check("get_evidence lists verifiable sources", sources.length >= 6 && sources.some((e) => e.verification === "on_request") && sources.some((e) => e.sources?.some((x) => x.url?.startsWith("https://github.com/"))), `${sources.length} entries`);
 
 // 4. Confidentiality: withheld names must not leave the server.
 // The terms are read from the environment so they are never written into the repository:

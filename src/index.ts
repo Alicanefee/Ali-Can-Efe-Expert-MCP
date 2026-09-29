@@ -13,7 +13,7 @@
  *
  * The tools and resources are defined in src/server.ts:
  *   Tools:     query_expertise, get_projects, get_project_details, ask_cv,
- *              get_active_research, get_target_queries
+ *              get_active_research, get_evidence
  *   Resources: expert://profile, expert://cv, expert://projects
  */
 
