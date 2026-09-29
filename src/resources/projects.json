@@ -43,7 +43,7 @@
       "tech_stack": ["TypeScript", "MCP SDK", "Zod", "Cloudflare Workers"],
       "architecture": {
         "transport": "stdio (local) + SSE (remote, via Cloudflare Workers)",
-        "tools_count": 6,
+        "tools_count": 7,
         "resources_count": 3,
         "data_layer": "JSON entity schema (expert.json / cv.json / projects.json)"
       },

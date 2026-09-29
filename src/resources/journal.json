@@ -1,0 +1,110 @@
+{
+  "updated": "2026-09-29",
+  "now": {
+    "location": "Dubai, UAE",
+    "summary": "Independent consultant building working tools that apply large language models to the most paperwork-heavy steps of regulated and engineering processes, and researching automated trading systems. The work is published as open source where possible.",
+    "focus": [
+      "LLM agents for document-heavy regulatory workflows. Open-source projects: SaMD Regulatory Playbook, SFDA and UAE EDE pre-check agents, UAE business setup advisor, MENA AI compliance advisor.",
+      "Automated BTC trading research based on image-style \"fingerprint\" encodings of market data. Development continues and recent experiments look promising (self-reported, not yet published). The methodology and code are planned as an open-source release. The published results document covers the earlier phase of this work.",
+      "Collecting and publishing the supporting documents (programmes, certificates) for the claims in this profile."
+    ],
+    "consulting": "For consulting inquiries, get in touch via LinkedIn.",
+    "contact": "https://www.linkedin.com/in/ali-can-efe"
+  },
+  "project_notes": {
+    "SaMD-Regulatory-Playbook": {
+      "why": "Regulatory requirements keep changing, and the document work they generate takes a lot of time in engineering and production. The playbook and its agent toolkit explore how evolving regulations can be built into AI-assisted document workflows to speed those steps up.",
+      "status": "Published on 2026-09-29.",
+      "also": "It is also a way to gain hands-on experience with regulatory work from the product side."
+    },
+    "SFDA-Regulatory-Compliance-Agent": {
+      "why": "Beyond advising on AI transformation, the aim is to build working tools that use LLMs where the paperwork load is heaviest and help people get through those processes faster.",
+      "status": "Published on 2026-09-24 as a demonstration with synthetic data."
+    },
+    "EDE-Regulatory-Compliance-Agent": {
+      "why": "Same aim as the SFDA agent, applied to UAE Emirates Drug Establishment submissions.",
+      "status": "Published on 2026-09-24 as a demonstration with synthetic data."
+    },
+    "UAE-Business-Setup-Advisor": {
+      "why": "Business setup and renewal involve scattered, document-heavy steps. The project explores an advisor that only answers from verified sources.",
+      "status": "Published on 2026-09-24 as a demonstration with sample data."
+    },
+    "MENA-AI-Compliance-Advisor": {
+      "why": "Companies adopting AI in the region face a large amount of source material. The project explores source-grounded support that quotes the official text.",
+      "status": "Published on 2026-09-24 as informational examples."
+    },
+    "btc-ml-research-results": {
+      "why": "The goal is an automated trading bot built on image-style \"fingerprint\" encodings of market data.",
+      "status": "In development. The published document covers the May-June 2026 phase; later experiments are still being validated.",
+      "next": "Continue development and release the work as an open-source project."
+    },
+    "Ali-Can-Efe-Expert-MCP": {
+      "why": "One place where accurate information about the author is available to anyone who asks, whether an employer, a client or a colleague.",
+      "status": "Published on 2026-09-29 and served from Cloudflare Workers."
+    }
+  },
+  "log": [
+    {
+      "date": "2026-09-29",
+      "title": "SaMD Regulatory Playbook and this profile server published",
+      "entry": "Published the SaMD Regulatory Playbook (guides, templates and an agent toolkit) and this MCP server, which is now served from Cloudflare Workers.",
+      "links": [
+        "https://github.com/Alicanefee/SaMD-Regulatory-Playbook",
+        "https://github.com/Alicanefee/Ali-Can-Efe-Expert-MCP"
+      ]
+    },
+    {
+      "date": "2026-09-24",
+      "title": "Four compliance and business-setup agents published",
+      "entry": "Published open-source agents for SFDA and UAE EDE medical device submission pre-checks, a UAE business setup advisor and a MENA AI compliance advisor. All four are demonstrations or informational examples, not legal or regulatory advice.",
+      "links": [
+        "https://github.com/Alicanefee/SFDA-Regulatory-Compliance-Agent",
+        "https://github.com/Alicanefee/EDE-Regulatory-Compliance-Agent",
+        "https://github.com/Alicanefee/UAE-Business-Setup-Advisor",
+        "https://github.com/Alicanefee/MENA-AI-Compliance-Advisor"
+      ]
+    },
+    {
+      "date": "2026-05",
+      "until": "2026-06",
+      "title": "BTC machine-learning research",
+      "entry": "Worked through a long series of experiments on BTC/USDT (versions 8 to 87): image-style encodings, masked-autoencoder pretraining, gradient boosting and synthetic-data controls. Published the results and the validation lessons, including the failures. The code stays private for now.",
+      "links": [
+        "https://github.com/Alicanefee/Ali-Can-Efe-Expert-MCP/blob/main/research/btc-ml-research-results.md"
+      ]
+    },
+    {
+      "date": "2025-10-23",
+      "title": "ecast-stage-finder",
+      "entry": "One of the first AI-assisted website experiments, built with Lovable.",
+      "links": [
+        "https://github.com/Alicanefee/ecast-stage-finder"
+      ]
+    },
+    {
+      "date": "2025-10-16",
+      "title": "gulf-guard-ai",
+      "entry": "One of the first AI-assisted website experiments, built with Lovable and updated again in April 2026.",
+      "links": [
+        "https://github.com/Alicanefee/gulf-guard-ai"
+      ]
+    },
+    {
+      "date": "2023-05-13",
+      "title": "Talk at the TMRD 27th Annual Scientific Meeting",
+      "entry": "Co-presented a Canon satellite symposium in Ankara: \"PIQE ile MRI Görüntülerinin Tam Potansiyelini Keşfedin\" (Discover the full potential of MRI images with PIQE), with Katsuhiro Ito.",
+      "links": [
+        "https://tmrd.org.tr/uploads/tbl_bildiriler/646c70f541b43_tbl_bildiriler2023105325.pdf"
+      ]
+    },
+    {
+      "date": "2022-05-26",
+      "until": "2022-05-28",
+      "title": "Talk at the TMRD 26th Annual Scientific Meeting",
+      "entry": "Spoke at the Canon Medical satellite symposium: \"Akıllı MR ile Üst Düzey Verimlilik: Derin Öğrenme Rekonstrüksiyon & İş Akışlarında Otomasyon\" (Smart MRI for top-level efficiency: deep-learning reconstruction and workflow automation).",
+      "links": [
+        "https://tmrd.org.tr/uploads/tbl_bildiriler/62a05a9c99ced_tbl_bildiriler2022111524.pdf"
+      ]
+    }
+  ]
+}

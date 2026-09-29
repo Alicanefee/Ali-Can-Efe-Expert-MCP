@@ -108,6 +108,9 @@
     {"institution": "Brunel University London", "degree": "MSc", "field": "Biomedical Engineering", "year": "2013"},
     {"institution": "F.M.V. Işık University, Istanbul", "degree": "BSc", "field": "Electrical & Electronics Engineering", "year": "2011", "note": "First in the Department of Electrical & Electronics Engineering with a high honor degree; Grand Success Scholarship. Announced at the 2010-2011 graduation ceremony (recording linked in the evidence list)."}
   ],
+  "certifications": [
+    {"issuer": "Bio-Rad", "type": "training certificates", "documents": "available on request"}
+  ],
   "skills": {
     "commercial_strategy": ["Customer Lifetime Value (CLV) optimization", "Installed Base (IB) Segmentation", "Account-Based Marketing (ABM)", "Revenue Growth Strategy", "Go-To-Market Strategy"],
     "sales_pipeline": ["SFDC / Salesforce Pipeline Management", "Sales Funnel Optimization", "Forecast Accuracy & AOP Attainment", "Territory & Account Planning", "Trusted Advisor to C-level"],

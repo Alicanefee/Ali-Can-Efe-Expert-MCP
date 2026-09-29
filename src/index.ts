@@ -13,7 +13,7 @@
  *
  * The tools and resources are defined in src/server.ts:
  *   Tools:     query_expertise, get_projects, get_project_details, ask_cv,
- *              get_active_research, get_evidence
+ *              get_active_research, get_journal, get_evidence
  *   Resources: expert://profile, expert://cv, expert://projects
  */
 
@@ -57,8 +57,9 @@ const loadJson = <T>(relativePath: string): T => {
 const expertProfile = loadJson<any>("../resources/expert.json");
 const cvData = loadJson<any>("../resources/cv.json");
 const projectsData = loadJson<any>("../resources/projects.json");
+const journalData = loadJson<any>("../resources/journal.json");
 
-const server = createExpertServer({ expertProfile, cvData, projectsData });
+const server = createExpertServer({ expertProfile, cvData, projectsData, journalData });
 
 // ============================================================================
 // START SERVER

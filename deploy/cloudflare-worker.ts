@@ -27,8 +27,9 @@ import { createExpertServer } from "../src/server";
 import expertProfile from "../src/resources/expert.json";
 import cvData from "../src/resources/cv.json";
 import projectsData from "../src/resources/projects.json";
+import journalData from "../src/resources/journal.json";
 
-const data = { expertProfile, cvData, projectsData };
+const data = { expertProfile, cvData, projectsData, journalData };
 
 // MCP messages are small; refuse anything larger to limit abuse of a public endpoint
 const MAX_BODY_BYTES = 64 * 1024;

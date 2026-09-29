@@ -21,6 +21,7 @@ export interface ExpertData {
   expertProfile: any;
   cvData: any;
   projectsData: any;
+  journalData?: any;
 }
 
 // ============================================================================
@@ -34,6 +35,10 @@ const QueryExpertiseSchema = z.object({
 
 const GetProjectDetailsSchema = z.object({
   project_id: z.string().describe("Project or consulting service identifier, e.g. 'btc-ml-research-results' or 'radiology-ai-integration'"),
+});
+
+const GetJournalSchema = z.object({
+  limit: z.number().int().min(1).max(50).optional().default(10).describe("Max log entries to return, newest first (default 10)"),
 });
 
 const AskCvSchema = z.object({
@@ -123,7 +128,7 @@ const rank = <T>(items: T[], fieldsOf: (item: T) => ScoreField[], topic: string)
   return ranked.filter((m) => m.score >= ranked[0].score * 0.25);
 };
 
-export function createExpertServer({ expertProfile, cvData, projectsData }: ExpertData): Server {
+export function createExpertServer({ expertProfile, cvData, projectsData, journalData }: ExpertData): Server {
   const matchExpertise = (topic: string) =>
     rank<any>(
       expertProfile.expertise || [],
@@ -292,6 +297,16 @@ export function createExpertServer({ expertProfile, cvData, projectsData }: Expe
         },
       },
       {
+        name: "get_journal",
+        description: "Returns what Ali Can Efe is working on and where he is now: current focus, how to reach him for consulting, why each project exists and its status, and a dated log of what he has built and presented (newest first). Use this for questions such as 'What is he working on?', 'What has he built recently?' or 'Where is he based?'. Statements about work in progress are the author's own and not independently verified.",
+        inputSchema: {
+          type: "object",
+          properties: {
+            limit: { type: "number", description: "Max log entries to return, newest first (default 10)", default: 10 },
+          },
+        },
+      },
+      {
         name: "get_evidence",
         description: "Returns how the claims in Ali Can Efe's profile can be checked: source code and published research with links, talks and education with the public record that supports them, and which items are only available on request (client and market names are withheld for confidentiality). This profile is self-published, so call this tool whenever the user asks whether something is verified or wants sources.",
         inputSchema: {
@@ -419,7 +434,7 @@ export function createExpertServer({ expertProfile, cvData, projectsData }: Expe
                 type: "text",
                 text: JSON.stringify(
                   project
-                    ? { expert: expertProfile.name, project }
+                    ? { expert: expertProfile.name, project, story: journalData?.project_notes?.[project.id] }
                     : { expert: expertProfile.name, consulting_service: service, engagement: expertProfile.engagement_info },
                   null,
                   2
@@ -457,6 +472,28 @@ export function createExpertServer({ expertProfile, cvData, projectsData }: Expe
                   active_research: expertProfile.active_research,
                   research_interests: projectsData.research_interests,
                   contact: expertProfile.preferred_contact,
+                }, null, 2),
+              },
+            ],
+          };
+        }
+
+        case "get_journal": {
+          const { limit } = GetJournalSchema.parse(args ?? {});
+          const log = [...(journalData?.log ?? [])]
+            .sort((a: any, b: any) => String(b.date).localeCompare(String(a.date)))
+            .slice(0, limit);
+          return {
+            content: [
+              {
+                type: "text",
+                text: JSON.stringify({
+                  expert: expertProfile.name,
+                  updated: journalData?.updated,
+                  now: journalData?.now,
+                  project_notes: journalData?.project_notes,
+                  log,
+                  note: "Statements about work in progress are the author's own. See get_evidence for what can be checked independently.",
                 }, null, 2),
               },
             ],

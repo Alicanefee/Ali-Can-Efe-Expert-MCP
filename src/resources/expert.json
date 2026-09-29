@@ -176,8 +176,8 @@
     },
     {
       "domain": "regulatory_ai_compliance",
-      "specialty": "SaMD / AI medical device regulatory strategy for product managers, plus deterministic, source-grounded AI agents for regulatory and legal compliance (medical device submissions, MENA AI and data regulation, UAE business setup)",
-      "level": "intermediate",
+      "specialty": "Hands-on projects that apply LLMs to the most document-heavy steps of regulated processes: a SaMD regulatory playbook with an agent toolkit, and open-source agents for SFDA and UAE EDE medical device pre-checks, MENA AI regulation and UAE business setup",
+      "level": "hands-on (open-source projects)",
       "since": "2026",
       "keywords": ["regulatory AI", "compliance automation", "SaMD", "Software as a Medical Device", "EU MDR", "FDA 510(k)", "ISO 13485", "IEC 62304", "QARA", "design controls", "agile under design controls", "IMDRF", "GMLP", "PCCP", "SFDA", "UAE EDE", "medical device regulatory submission", "PDPL", "EU AI Act", "GDPR", "MENA AI regulation", "source-grounded retrieval", "hallucination prevention", "deterministic agent state machine", "audit trail", "UAE business setup"],
       "evidence": [
@@ -364,6 +364,12 @@
         {"name": "Işık University 2010-2011 graduation ceremony (recording, from about 1:20:00)", "url": "https://www.youtube.com/watch?v=bD-lcxIjZfk&t=4800s"}
       ],
       "note": "The recording has no captions, so the announcement has to be watched. The author can also provide the official documents."
+    },
+    {
+      "claim": "Bio-Rad training certificates",
+      "category": "certification",
+      "verification": "on_request",
+      "note": "Certificates obtained; the scanned documents are available on request."
     },
     {
       "claim": "MSc Biomedical Engineering, Brunel University London (2013)",

@@ -57,7 +57,7 @@ check("initialize", init.status === 200 && init.body?.result?.serverInfo?.name =
 
 const tools = await rpc("tools/list", {});
 const toolNames = (tools.body?.result?.tools ?? []).map((t) => t.name);
-check("tools/list", toolNames.length === 6 && toolNames.includes("get_evidence"), toolNames.join(", "));
+check("tools/list", toolNames.length === 7 && toolNames.includes("get_evidence") && toolNames.includes("get_journal"), toolNames.join(", "));
 
 // 3. Tool behaviour
 const q = await callTool("query_expertise", { topic: "SaMD regulatory playbook for product managers" });
@@ -78,6 +78,15 @@ check("ask_cv answers from CV", typeof cv.data.answer === "string" && cv.data.an
 const evidence = await callTool("get_evidence", {});
 const sources = evidence.data.evidence ?? [];
 check("get_evidence lists verifiable sources", sources.length >= 6 && sources.some((e) => e.verification === "on_request") && sources.some((e) => e.sources?.some((x) => x.url?.startsWith("https://github.com/"))), `${sources.length} entries`);
+
+const journal = await callTool("get_journal", { limit: 3 });
+check("get_journal returns focus, contact and a newest-first log",
+  Array.isArray(journal.data.now?.focus) && typeof journal.data.now?.consulting === "string" &&
+  journal.data.log?.length === 3 && journal.data.log[0].date >= journal.data.log[1].date,
+  `latest: ${journal.data.log?.[0]?.date}`);
+
+const story = await callTool("get_project_details", { project_id: "SaMD-Regulatory-Playbook" });
+check("project details include the project story", typeof story.data.story?.why === "string");
 
 // 4. Confidentiality: withheld names must not leave the server.
 // The terms are read from the environment so they are never written into the repository:

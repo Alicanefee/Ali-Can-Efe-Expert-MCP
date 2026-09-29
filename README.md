@@ -1,6 +1,6 @@
 # Ali Can Efe: Professional Profile MCP Server
 
-An open-source [Model Context Protocol](https://modelcontextprotocol.io) (MCP) server that publishes one professional profile as structured data: background, consulting services, projects and published research results. An AI assistant connected to it can answer questions such as "What has Ali worked on in medical AI?" from a single, citable source instead of piecing the answer together from scattered web pages.
+An open-source [Model Context Protocol](https://modelcontextprotocol.io) (MCP) server that publishes one professional profile as structured data: background, consulting services, projects and published research results. The aim is simple: accurate information about the author should be easy to reach for anyone who asks, whether an employer, a client or a colleague. An AI assistant connected to it can answer questions such as "What has Ali worked on in medical AI?" or "What is he working on now?" from a single, citable source instead of piecing the answer together from scattered web pages.
 
 ## Read this first: it is a self-published profile
 
@@ -14,6 +14,14 @@ An open-source [Model Context Protocol](https://modelcontextprotocol.io) (MCP) s
 Ali Can Efe is an independent healthcare AI strategy consultant based in Dubai (since 2026). Before that he spent more than ten years at Canon Medical Systems (2015-2026), in MRI product management and global marketing across META (Middle East, Turkey, Africa) and APAC. MSc in Biomedical Engineering (Brunel University London) and BSc in Electrical & Electronics Engineering (Işık University, Istanbul).
 
 Areas covered: AI/ML integration in medical imaging, installed-base and customer-lifetime-value strategy for medical device manufacturers, regulatory AI (SaMD, EU MDR, FDA, SFDA, UAE EDE), and validation practice in financial machine learning.
+
+## What I am working on
+
+- **LLM agents for paperwork-heavy processes.** Beyond advising on AI transformation, I build working tools that apply large language models where the document load is heaviest. Open-source projects so far: a SaMD regulatory playbook with an agent toolkit, SFDA and UAE EDE pre-check agents, a UAE business setup advisor and a MENA AI compliance advisor.
+- **Automated trading research.** BTC research based on image-style "fingerprint" encodings of market data. Development continues and recent experiments look promising (self-reported, not yet published). The plan is to release the methodology and code as an open-source project.
+- **Supporting documents.** Programmes, certificates and similar records for the claims below are added as I collect them.
+
+For consulting inquiries, get in touch via [LinkedIn](https://www.linkedin.com/in/ali-can-efe). The `get_journal` tool returns this section with a dated log of what has been built and presented, and the reason behind each project.
 
 ## Evidence and sources
 
@@ -74,6 +82,7 @@ To run it locally over stdio instead, see [Run locally](#run-locally) and the te
 | `get_project_details` | Details of one project or consulting service by ID |
 | `ask_cv` | Answer a natural-language question about roles, skills, education or talks |
 | `get_active_research` | Current research interests |
+| `get_journal` | What is being worked on now, why each project exists, and a dated log (newest first) |
 | `get_evidence` | Which claims can be checked, with links, and which are available on request |
 
 Resources: `expert://profile`, `expert://cv`, `expert://projects`.
