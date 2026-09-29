@@ -1,12 +1,15 @@
 name: Deploy to Cloudflare Workers
 
+# Requires the repository secrets CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID.
 on:
   push:
     branches: [main, master]
     paths:
-      - 'deploy/cloudflare-worker.ts'
+      - 'deploy/**'
+      - 'src/**'
       - 'wrangler.toml'
-      - 'src/resources/**'
+      - 'package.json'
+      - 'package-lock.json'
   workflow_dispatch:
 
 jobs:
@@ -20,12 +23,17 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
+          cache: 'npm'
 
-      - name: Install Wrangler
-        run: npm install -g wrangler
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Type-check (server and worker)
+        run: npm run typecheck
 
       - name: Deploy
-        run: wrangler deploy
+        run: npx wrangler deploy
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          WRANGLER_SEND_METRICS: 'false'

@@ -97,18 +97,34 @@ Hazır şablon: `config/cursor-mcp.json`
 
 ## Remote Deploy (Cloudflare Workers)
 
-Başkalarının da MCP server'ınızı kullanabilmesi için (herhangi bir Claude
-Desktop kullanıcısı):
+Başkalarının da MCP server'ınızı kullanabilmesi için. Worker, yerel sunucuyla aynı
+çekirdeği (`src/server.ts`) ve `src/resources/*.json` dosyalarını kullanır; veri deploy
+sırasında pakete gömülür. Taşıma katmanı Streamable HTTP'dir (durumsuz, JSON yanıt).
 
 ```bash
-npm install -g wrangler
-wrangler login
-wrangler deploy
+npm install
+npx wrangler login
+npm run deploy:cloudflare
 ```
 
-Deploy sonrası public URL: `https://ali-efe-mcp.<subdomain>.workers.dev/sse`
+Deploy sonrası adresler (workers.dev alt alan adınız deploy çıktısında yazar):
+
+- `https://ali-can-efe-mcp.<subdomain>.workers.dev/` — bilgi sayfası ve istemci ayar örnekleri
+- `https://ali-can-efe-mcp.<subdomain>.workers.dev/mcp` — MCP uç noktası
+
+Doğrulama (yerelde `npm run deploy:dev`, canlıda URL vererek):
+
+```bash
+npm run smoke:remote -- https://ali-can-efe-mcp.<subdomain>.workers.dev/mcp
+```
+
+İstemci ayarı: Cursor gibi uzak sunucuyu doğrudan destekleyen istemcilerde `{"url": ".../mcp"}`;
+Claude Desktop'ta özel connector olarak URL'yi ekleyin veya `npx -y mcp-remote <URL>` proxy'sini kullanın.
 
 Bu URL'i MCP dizinlerine (`mcp.so`, `glama.ai/mcp`) ekleyin.
+
+GitHub Actions ile otomatik deploy için `CLOUDFLARE_API_TOKEN` ve `CLOUDFLARE_ACCOUNT_ID`
+repository secret'larını tanımlayın (`.github/workflows/deploy.yml`).
 
 ## Sağlanan Tool'lar
 
@@ -144,12 +160,14 @@ ali-efe-mcp/
 ├── package.json
 ├── tsconfig.json
 ├── wrangler.toml              # Cloudflare config
+├── tsconfig.worker.json        # Worker tip kontrolü
 ├── TARGET_QUERIES.md           # Hedef AI sorguları listesi
 ├── README.md                   # Bu dosya
 ├── research/
 │   └── btc-ml-research-results.md  # Yayınlanan araştırma sonuçları (kod özel)
 ├── src/
-│   ├── index.ts                # MCP server ana giriş + tool'lar
+│   ├── server.ts               # Taşıma katmanından bağımsız MCP çekirdeği (tool'lar + resource'lar)
+│   ├── index.ts                # Yerel stdio girişi
 │   └── resources/
 │       ├── expert.json         # Entity şeması
 │       ├── cv.json             # CV
@@ -157,8 +175,10 @@ ali-efe-mcp/
 ├── config/
 │   ├── claude-desktop.json     # Claude Desktop config şablonu
 │   └── cursor-mcp.json         # Cursor config şablonu
+├── scripts/
+│   └── smoke-remote.mjs        # Uzak (HTTP) uç nokta doğrulama betiği
 └── deploy/
-    └── cloudflare-worker.ts    # Remote SSE transport versiyonu
+    └── cloudflare-worker.ts    # Cloudflare Worker girişi (Streamable HTTP)
 ```
 
 ## Sonraki Adımlar
