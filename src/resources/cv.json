@@ -1,0 +1,126 @@
+{
+  "$schema": "https://ali-can-efe.dev/schemas/cv.json",
+  "summary": "Independent healthcare AI strategy consultant (2026-present) based in Dubai. Former MRI Global Marketing Deputy Manager at a global medical imaging OEM (2015-2026), with 10+ years driving MRI and medical imaging business growth across META and APAC. Specialized in AI/ML healthcare integration, CLV optimization, IB segmentation, KOL-driven market entry. Biomedical engineering + electrical-electronics engineering background.",
+  "note": "Open-source version — contact details are omitted. Names of companies, clients and markets have been changed or withheld for confidentiality; achievement metrics are shown as delivered. Full CV, professional references and anonymized case studies are available on request via LinkedIn.",
+  "experience": [
+    {
+      "company": "Independent Consulting Practice",
+      "location": "Dubai, UAE",
+      "role": "Independent Healthcare AI Strategy Consultant",
+      "period": "2026-present",
+      "highlights": [
+        "AI integration consulting for radiology systems and medical imaging workflows — vendor evaluation, pilot deployment, KOL engagement",
+        "Custom AI/ML model development for healthcare (imaging) and finance (time-series forecasting) clients, with a validation-first approach (leakage audits, chronological out-of-sample testing, cost-aware evaluation)",
+        "AI-driven marketing strategy consulting for medical device manufacturers — combining META/APAC commercial playbooks with AI-enabled campaign design",
+        "Customer satisfaction and CLV optimization programs — service contract redesign, IB modernization, ABM for high-value accounts",
+        "Installed base modernization — transforming aging IB from cost center to recurring revenue engine",
+        "Authored an open-source SaMD regulatory and QARA playbook for product managers (EU MDR, FDA, ISO 13485, EU AI Act) with an agent toolkit that turns a device description into a verified regulatory plan",
+        "Open-source work on AI-discoverable expertise infrastructure (Model Context Protocol) and on deterministic, source-grounded compliance AI demonstrators for SFDA and UAE EDE medical device pre-checks, MENA AI regulation and UAE business setup",
+        "Published results and validation lessons from a private BTC machine-learning research project"
+      ],
+      "service_packages": [
+        "AI Integration for Radiology Systems (4-8 week sprint)",
+        "AI Enablement for Daily Healthcare Operations (6-12 week program)",
+        "Custom AI Model Development for Healthcare & Finance (3-6 month engagement)",
+        "AI-Driven Marketing Strategy for Medical Device Manufacturers (4-8 week engagement)",
+        "Customer Satisfaction & CLV Optimization Consulting (6-12 week program)",
+        "Installed Base Modernization & Revenue Expansion (8-12 week program)"
+      ],
+      "target_clients": [
+        "global medical imaging device manufacturers (OEMs)",
+        "healthcare AI startups",
+        "hospitals and radiology networks",
+        "healthcare ministries and government agencies",
+        "fintech and quantitative finance firms",
+        "private equity and venture investors evaluating healthcare AI plays"
+      ]
+    },
+    {
+      "company": "Global medical imaging OEM (former employer; name withheld for confidentiality)",
+      "location": "Tokyo, Japan",
+      "role": "MRI Global Marketing Deputy Manager / Product Owner (former)",
+      "period": "2023-2026",
+      "highlights": [
+        "Led MRI global marketing across META and APAC, covering 4 key markets",
+        "Drove CLV expansion across the installed base, generating $3M+ incremental revenue",
+        "Achieved a 156% sales increase in a key APAC market, with a +2 percentage point market share gain",
+        "Managed a multi-million dollar portfolio across 13+ regional offices with 95%+ forecast accuracy in SFDC",
+        "Implemented Account-Based Marketing (ABM) strategies for high-value accounts, delivering a 10% increase in deal closure rate",
+        "Pioneered next-generation AI diagnostic imaging market entry — from no prior portfolio to first-mover advantage",
+        "Led a global product training program reaching 400+ stakeholders, with a 10% satisfaction improvement",
+        "Generated $2.5M revenue post-Arab Health via META market expansion",
+        "Coordinated cross-functional alignment across HQ (R&D, Production, Legal) and 13+ regional offices",
+        "Keynote speaker at Arab Health Congress Dubai 2024; speaker at a Turkish Magnetic Resonance Association event in 2023"
+      ]
+    },
+    {
+      "company": "Global medical imaging OEM (former employer; name withheld for confidentiality)",
+      "location": "Istanbul, Turkey",
+      "role": "MRI Product Manager (former)",
+      "period": "2019-2023",
+      "highlights": [
+        "Owned complete product lifecycle for MRI systems in the Turkish market",
+        "Developed market entry strategies enabling successful re-entry during supply chain disruptions",
+        "Expanded Customer Lifetime Value through proactive installed base engagement",
+        "Integrated third-party HealthCare IT solutions with MRI, improving clinical outcomes",
+        "Managed KOL initiatives and onboarded globally recognized KOLs",
+        "Managed sales pipeline and opportunity development in SFDC aligned with AOP"
+      ]
+    },
+    {
+      "company": "Global medical imaging OEM (former employer; name withheld for confidentiality)",
+      "location": "Istanbul, Turkey",
+      "role": "Service Team Leader (former)",
+      "period": "2018-2019",
+      "highlights": [
+        "Drove business development delivering ~$6M annual revenue (+30% vs target) with 60%+ profit margins through strategic up-sell of service contracts",
+        "Pioneered an industry-first spare parts supply program for an exclusive government segment",
+        "Led cross-functional teams (operations, technical, sales, customer support) for effective project delivery",
+        "Improved ultrasound customer satisfaction while lowering operational costs and total cost of ownership",
+        "Led bulk service contract negotiations with a national health authority for its Ultrasound and CT installed base"
+      ]
+    },
+    {
+      "company": "Global medical imaging OEM (former employer; name withheld for confidentiality)",
+      "location": "Istanbul, Turkey",
+      "role": "Service Sales Executive (former)",
+      "period": "2016-2018",
+      "highlights": [
+        "Implemented technical support protocols achieving a 5% increase in service contract renewals across all product modalities",
+        "Owned service sales responsibility across all modalities (Ultrasound, CT, MR, X-Ray)",
+        "Expanded the contracted installed base by ~200 ultrasound devices, converting non-contract customers into recurring contract revenue",
+        "Designed and implemented new flexible contract solutions"
+      ]
+    },
+    {
+      "company": "Global medical imaging OEM and a laboratory-diagnostics service provider (former employers; names withheld for confidentiality)",
+      "location": "Istanbul, Turkey",
+      "role": "Field Service Engineer (former)",
+      "period": "2015-2016",
+      "highlights": [
+        "Delivered multi-modality service engineering — installation, repair, preventive maintenance, and calibration",
+        "Worked across Ultrasound, CT, MR, and X-Ray systems",
+        "Earlier role at the laboratory-diagnostics service provider covered analyzers from several major manufacturers"
+      ]
+    }
+  ],
+  "education": [
+    {"institution": "Brunel University London", "degree": "MSc", "field": "Biomedical Engineering", "year": "2013"},
+    {"institution": "F.M.V. Işık University, Istanbul", "degree": "BSc", "field": "Electrical & Electronics Engineering", "year": "2011", "note": "Graduated first in class with a Grand Success Scholarship; recognized on the university's official website"}
+  ],
+  "skills": {
+    "commercial_strategy": ["Customer Lifetime Value (CLV) optimization", "Installed Base (IB) Segmentation", "Account-Based Marketing (ABM)", "Revenue Growth Strategy", "Go-To-Market Strategy"],
+    "sales_pipeline": ["SFDC / Salesforce Pipeline Management", "Sales Funnel Optimization", "Forecast Accuracy & AOP Attainment", "Territory & Account Planning", "Trusted Advisor to C-level"],
+    "product_market": ["Product Lifecycle Management", "Market Segmentation", "Competitive Positioning", "KOL Management", "Stakeholder Management", "Cross-functional Team Coordination"],
+    "technical_domain": ["MRI System Architecture", "AI/ML Healthcare Integration", "Healthcare IT Solutions", "Biomedical Engineering Principles", "SaMD regulatory strategy for product management (EU MDR, FDA, ISO 13485, EU AI Act)"],
+    "ai_engineering": ["Deterministic agent / state-machine design", "Source-grounded retrieval with verification (quote-or-drop)", "Regulatory compliance automation (medical devices, MENA AI regulation)", "Time-series ML validation (leakage audits, out-of-sample testing)", "PyTorch, XGBoost, Optuna"],
+    "data_analytics": ["Data Analysis & Interpretation", "KPI Monitoring and Reporting", "Customer Pain Point Identification", "Market Dynamics Assessment", "Competitive Intelligence", "Performance Metrics & Dashboards"],
+    "languages": ["English (Excellent - Business & Strategic Communication)", "Turkish (Native)"]
+  },
+  "speaking_engagements": [
+    {"event": "Arab Health Congress", "year": 2024, "location": "Dubai, UAE", "role": "Keynote speaker on AI innovation in MRI"},
+    {"event": "Turkish Magnetic Resonance Association event", "year": 2023, "location": "Turkey", "role": "Speaker on AI-driven solutions in MRI", "public_record": "Speaker listing published on the association's official website"}
+  ],
+  "references": "Professional references (LinkedIn recommendations, client and KOL testimonials) are available on request.",
+  "confidentiality_note": "Names of companies, clients and markets have been changed or withheld for confidentiality. Achievement metrics are shown as delivered."
+}

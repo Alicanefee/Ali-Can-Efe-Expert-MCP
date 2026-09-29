@@ -1,0 +1,33 @@
+name = "ali-can-efe-mcp"
+main = "deploy/cloudflare-worker.ts"
+compatibility_date = "2025-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+# After deploy:
+#   wrangler deploy
+# Your MCP server will be at:
+#   https://ali-can-efe-mcp.<your-subdomain>.workers.dev/sse
+#
+# Add that URL to any MCP-compatible client (Claude Desktop, Cursor, etc.)
+# as a remote server to make your expertise discoverable:
+#   {
+#     "mcpServers": {
+#       "ali-can-efe-expert": {
+#         "url": "https://ali-can-efe-mcp.<your-subdomain>.workers.dev/sse"
+#       }
+#     }
+#   }
+
+[vars]
+EXPERT_NAME = "Ali Can Efe"
+EXPERT_VERSION = "0.3.0"
+
+# Optional: bind R2 bucket to store expert.json / cv.json / projects.json
+# in production instead of inlining them in the worker source.
+# [[r2_buckets]]
+# binding = "EXPERT_DATA"
+# bucket_name = "ali-can-efe-expert-data"
+
+# Optional: observability
+# [observability]
+# enabled = true

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "ali-can-efe-expert": {
+      "command": "node",
+      "args": ["/absolute/path/to/Ali-Can-Efe-Expert-MCP/dist/index.js"]
+    }
+  }
+}

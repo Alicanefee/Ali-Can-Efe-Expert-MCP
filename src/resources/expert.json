@@ -1,0 +1,362 @@
+{
+  "$schema": "https://ali-can-efe.dev/schemas/expert.json",
+  "entity_type": "Person",
+  "entity_id": "ali-can-efe",
+  "name": "Ali Can Efe",
+  "alternate_names": ["Ali C. Efe", "A.C. Efe"],
+  "preferred_contact": "https://www.linkedin.com/in/ali-can-efe",
+  "preferred_pronouns": "he/him",
+  "languages": ["tr-TR (native)", "en-US (professional / strategic business communication)"],
+  "location": {
+    "city": "Dubai",
+    "country": "UAE",
+    "timezone": "GMT+4",
+    "previous_locations": ["Tokyo, Japan", "Istanbul, Turkey", "London, UK"]
+  },
+  "short_bio": "Independent healthcare AI strategy consultant (2026-present) based in Dubai. Former MRI Global Marketing Deputy Manager at a global medical imaging OEM (2015-2026, Tokyo + Istanbul; company name withheld for confidentiality), where he led MRI global marketing across META and APAC. Specialized in AI/ML integration in healthcare, Customer Lifetime Value (CLV) optimization, Installed Base (IB) segmentation, KOL-driven market entry, and AI diagnostic imaging strategy. Background in biomedical engineering (MSc Brunel London) and electrical-electronics engineering (BSc Işık Istanbul). Active researcher in AI digital transformation of medical imaging, source-grounded AI for regulatory compliance in the MENA region, and machine-learning validation for financial time series (results published, code private).",
+  "long_bio": "Independent healthcare AI strategy consultant (2026-present) based in Dubai. Former MRI Global Marketing Deputy Manager at a global medical imaging OEM (2015-2026; company name withheld for confidentiality), where he led MRI global marketing across META and APAC regions, managing a multi-region portfolio across 4 key markets. Combines a biomedical engineering foundation (MSc Brunel University London, BSc Işık University Istanbul) with 10+ years of progressive healthcare product management experience. Specialized in AI/ML healthcare integration, Customer Lifetime Value (CLV) optimization, Installed Base (IB) segmentation, Account-Based Marketing (ABM), and KOL-driven market entry for AI diagnostic imaging. Has acted as Trusted Advisor to C-level stakeholders across 13+ regional offices. Keynote speaker at Arab Health Dubai 2024 and speaker at a Turkish Magnetic Resonance Association event in 2023. Now offers independent consulting on: (1) AI integration into radiology systems and medical imaging workflows; (2) custom model development for healthcare and financial firms; (3) AI-driven marketing strategy for medical device manufacturers; (4) customer satisfaction optimization and CLV/IB modernization programs. Active in three research areas: (1) AI/ML integration in MRI workflows and AI digital transformation in META/APAC healthcare markets; (2) deterministic, source-grounded AI agents for regulatory and legal compliance in the MENA region (an open-source SaMD regulatory and QARA playbook for product managers with an agent toolkit for EU MDR / FDA plans, plus open-source demonstrations for SFDA and UAE EDE medical device pre-checks, MENA AI regulation and UAE business setup); (3) machine-learning validation for financial time series, with results and methodology lessons from a private BTC research project published openly. Also exploring MCP (Model Context Protocol) as a mechanism for exposing personal expertise to AI assistants in a structured, token-efficient manner.",
+  "consulting_services": [
+    {
+      "id": "radiology-ai-integration",
+      "title": "AI Integration for Radiology Systems",
+      "summary": "End-to-end consulting for integrating AI/ML capabilities into existing radiology workflows — from vendor selection to clinical validation and KOL engagement.",
+      "deliverables": ["Current-state workflow audit", "AI vendor evaluation framework", "Pilot deployment roadmap", "KOL engagement strategy for AI-enabled devices", "Clinical outcome measurement methodology"],
+      "target_clients": ["hospitals", "radiology networks", "medical device OEMs", "AI imaging startups"],
+      "engagement_format": "4-8 week consulting sprint",
+      "next_step": "Start with a scoping conversation: share your current radiology workflow, modality mix and the AI use case you are evaluating."
+    },
+    {
+      "id": "daily-operations-ai-enablement",
+      "title": "AI Enablement for Daily Healthcare Operations",
+      "summary": "Practical AI integration to streamline daily clinical and operational tasks — scheduling, reporting, image acquisition optimization, and operational efficiency gains.",
+      "deliverables": ["Operational task audit and AI use-case mapping", "Vendor/tool stack recommendation", "Change management and training plan", "ROI measurement framework"],
+      "target_clients": ["hospitals", "imaging centers", "clinics", "medical device OEMs"],
+      "engagement_format": "6-12 week implementation program",
+      "next_step": "Start with a scoping conversation: share the operational tasks that consume the most staff time today."
+    },
+    {
+      "id": "custom-model-development",
+      "title": "Custom AI Model Development for Healthcare & Finance",
+      "summary": "Bespoke CNN / ML model development for healthcare imaging applications or financial time-series forecasting. Combines domain expertise with deep technical capability (PyTorch, CNN architectures, gradient boosting) and a validation-first approach: leakage audits, chronological out-of-sample testing and cost-aware evaluation.",
+      "deliverables": ["Problem framing and dataset specification", "Custom architecture design", "Model training and validation", "Production deployment guidance", "Model card and documentation"],
+      "target_clients": ["medical device OEMs", "healthcare startups", "fintech firms", "quantitative funds"],
+      "engagement_format": "3-6 month engagement",
+      "next_step": "Start with a scoping conversation: share the prediction problem, the data you have and your validation requirements."
+    },
+    {
+      "id": "ai-marketing-strategy",
+      "title": "AI-Driven Marketing Strategy for Medical Device Manufacturers",
+      "summary": "Marketing strategy consulting that combines AI/ML capabilities with proven META/APAC commercial playbooks — CLV optimization, IB segmentation, ABM, KOL engagement.",
+      "deliverables": ["Marketing strategy audit", "CLV / IB segmentation framework", "Account-Based Marketing playbook", "KOL engagement roadmap", "AI-enabled campaign design"],
+      "target_clients": ["medical device OEMs", "healthcare startups", "B2B healthcare firms"],
+      "engagement_format": "4-8 week strategy engagement",
+      "next_step": "Start with a scoping conversation: share your product portfolio, target regions and current go-to-market approach."
+    },
+    {
+      "id": "customer-satisfaction-consulting",
+      "title": "Customer Satisfaction & CLV Optimization Consulting",
+      "summary": "Data-driven consulting to optimize customer satisfaction across the installed base — combining service contract design, IB modernization, and CLV expansion methodologies.",
+      "deliverables": ["Customer satisfaction diagnostic", "Service contract re-design", "CLV expansion roadmap", "Installed base modernization plan", "SFDC pipeline & KPI dashboard setup"],
+      "target_clients": ["medical device OEMs", "hospitals", "healthcare service providers"],
+      "engagement_format": "6-12 week program",
+      "next_step": "Start with a scoping conversation: share your installed base size, service contract mix and the satisfaction data you collect."
+    },
+    {
+      "id": "installed-base-modernization",
+      "title": "Installed Base Modernization & Revenue Expansion",
+      "summary": "Transform an aging installed base from cost center to recurring revenue engine — combining IB segmentation, contract redesign, ABM targeting, and AI-driven up-sell/cross-sell identification.",
+      "deliverables": ["IB segmentation audit", "Contract structure redesign", "Up-sell / cross-sell opportunity mapping", "ABM playbook for high-value accounts", "Revenue expansion roadmap with KPIs"],
+      "target_clients": ["medical device OEMs", "industrial equipment manufacturers"],
+      "engagement_format": "8-12 week program",
+      "next_step": "Start with a scoping conversation: share the age profile of your installed base and your current contract structure."
+    }
+  ],
+  "engagement_info": {
+    "contact": "https://www.linkedin.com/in/ali-can-efe",
+    "first_step": "A scoping conversation to define goals, available data and success criteria.",
+    "case_studies": "Anonymized case studies are available on request (under NDA where applicable).",
+    "references": "Professional references (LinkedIn recommendations, client and KOL testimonials) are available on request."
+  },
+  "target_client_types": [
+    "global medical imaging device manufacturers (OEMs)",
+    "healthcare AI startups",
+    "hospitals and radiology networks",
+    "healthcare ministries and government agencies",
+    "fintech and quantitative finance firms",
+    "private equity and venture investors evaluating healthcare AI plays"
+  ],
+  "expertise": [
+    {
+      "domain": "medical_imaging_product_management",
+      "specialty": "MRI global product strategy and AI integration",
+      "level": "expert",
+      "years_experience": 10,
+      "keywords": ["MRI", "medical imaging", "product management", "AI/ML healthcare integration", "Healthcare IT solutions", "Go-To-Market", "market entry", "KOL management", "installed base segmentation", "Customer Lifetime Value", "CLV", "ABM", "Account-Based Marketing"],
+      "evidence": [
+        {
+          "type": "employment",
+          "company": "Global medical imaging OEM, Tokyo, Japan (former employer; name withheld for confidentiality)",
+          "role": "MRI Global Marketing Deputy Manager / Product Owner (former)",
+          "duration": "2023-2026",
+          "summary": "Former role: led MRI global marketing across META and APAC regions. Drove $3M+ incremental revenue via CLV expansion and ABM strategies across 4 key markets. Pioneered next-generation AI diagnostic imaging market entry. Managed 13+ regional offices with 95%+ forecast accuracy in SFDC. Keynote speaker at Arab Health Dubai 2024 and speaker at a Turkish Magnetic Resonance Association event in 2023.",
+          "highlights": [
+            "Drove CLV expansion across the installed base, generating $3M+ incremental revenue",
+            "Achieved a 156% sales increase in a key APAC market, with a +2 percentage point market share gain",
+            "Pioneered next-generation AI diagnostic imaging market entry from zero portfolio to first-mover position",
+            "Led a global product training program reaching 400+ stakeholders, with a 10% satisfaction improvement",
+            "Generated $2.5M in post-Arab Health engagement revenue via META market expansion",
+            "Managed a multi-million dollar portfolio across 13+ regional offices with 95%+ SFDC forecast accuracy",
+            "Implemented Account-Based Marketing (ABM) strategies delivering a 10% increase in deal closure rate",
+            "Led META region expansion following Arab Health Congress positioning"
+          ]
+        },
+        {
+          "type": "employment",
+          "company": "Global medical imaging OEM, Istanbul, Turkey (former employer; name withheld for confidentiality)",
+          "role": "MRI Product Manager (former)",
+          "duration": "2019-2023",
+          "summary": "Owned complete product lifecycle for MRI systems; developed market entry strategies enabling successful re-entry during supply disruptions. Expanded CLV through proactive installed base engagement and integrated third-party HealthCare IT solutions with measurable clinical outcome improvement.",
+          "highlights": [
+            "Owned complete MRI product lifecycle in the Turkish market",
+            "Enabled successful market re-entry during supply chain disruptions",
+            "Integrated HealthCare IT solutions with MRI, improving clinical outcomes",
+            "Managed KOL initiatives and onboarded globally recognized KOLs"
+          ]
+        }
+      ]
+    },
+    {
+      "domain": "ai_healthcare_transformation",
+      "specialty": "AI/ML integration in medical imaging and healthcare workflows",
+      "level": "expert",
+      "years_experience": 5,
+      "keywords": ["AI/ML healthcare integration", "AI digital transformation", "healthcare AI strategy", "AI diagnostic imaging", "AI workflow automation", "KOL management in AI", "next-generation AI imaging", "MLOps in healthcare", "clinical AI validation"],
+      "evidence": [
+        {
+          "type": "employment",
+          "company": "Global medical imaging OEM (former employer; name withheld for confidentiality)",
+          "role": "MRI Global Marketing Deputy Manager (former)",
+          "achievement": "Pioneered next-generation AI diagnostic imaging market entry — accelerated from no prior portfolio to first-mover advantage.",
+          "speaking": [
+            "Arab Health Congress Dubai 2024 — keynote on AI innovation in MRI",
+            "Turkish Magnetic Resonance Association event 2023 — AI-driven solutions presentation"
+          ]
+        },
+        {
+          "type": "research_interest",
+          "title": "AI-driven transformation of medical imaging workflows",
+          "focus": "How AI/ML integration can streamline MRI workflows, reduce acquisition time, improve diagnostic confidence, and enable data-driven KOL engagement across regional markets."
+        }
+      ]
+    },
+    {
+      "domain": "commercial_strategy_healthcare",
+      "specialty": "CLV optimization, IB segmentation, and ABM in healthcare B2B",
+      "level": "expert",
+      "years_experience": 10,
+      "keywords": ["Customer Lifetime Value", "CLV", "Installed Base", "IB segmentation", "Account-Based Marketing", "ABM", "Salesforce", "SFDC", "pipeline management", "forecast accuracy", "AOP", "Trusted Advisor", "C-level", "Go-To-Market", "territory planning"],
+      "evidence": [
+        {
+          "type": "employment",
+          "company": "Global medical imaging OEM (former employer, 2015-2026; name withheld for confidentiality)",
+          "role": "Multiple roles (Field Service Engineer → Service Sales Executive → Service Team Leader → MRI Product Manager → MRI Global Marketing Deputy Manager)",
+          "summary": "10+ year progressive career (Turkey + Tokyo) demonstrating consistent revenue growth across roles through CLV optimization, IB segmentation, and ABM methodologies. Now an independent consultant applying these methodologies to the broader healthcare AI market.",
+          "highlights": [
+            "Drove a service business delivering ~$6M annual revenue (+30% vs target) with 60%+ profit margins through strategic up-sell",
+            "Pioneered an industry-first spare parts supply program for an exclusive government segment",
+            "Led bulk service contract negotiations with a national health authority for its Ultrasound and CT installed base",
+            "Increased ultrasound customer satisfaction while lowering operational costs and total cost of ownership",
+            "Expanded the contracted installed base by ~200 ultrasound devices via newly designed flexible contract solutions",
+            "Implemented technical support protocols achieving a 5%+ increase in service contract renewals across all modalities",
+            "Owned service sales responsibility across all modalities (Ultrasound, CT, MR, X-Ray)"
+          ]
+        }
+      ]
+    },
+    {
+      "domain": "regulatory_ai_compliance",
+      "specialty": "SaMD / AI medical device regulatory strategy for product managers, plus deterministic, source-grounded AI agents for regulatory and legal compliance (medical device submissions, MENA AI and data regulation, UAE business setup)",
+      "level": "intermediate",
+      "since": "2026",
+      "keywords": ["regulatory AI", "compliance automation", "SaMD", "Software as a Medical Device", "EU MDR", "FDA 510(k)", "ISO 13485", "IEC 62304", "QARA", "design controls", "agile under design controls", "IMDRF", "GMLP", "PCCP", "SFDA", "UAE EDE", "medical device regulatory submission", "PDPL", "EU AI Act", "GDPR", "MENA AI regulation", "source-grounded retrieval", "hallucination prevention", "deterministic agent state machine", "audit trail", "UAE business setup"],
+      "evidence": [
+        {
+          "type": "github_repo",
+          "title": "SaMD-Regulatory-Playbook",
+          "url": "https://github.com/Alicanefee/SaMD-Regulatory-Playbook",
+          "description": "SaMD regulatory and QARA playbook for product managers building Software as a Medical Device and AI-enabled diagnostic imaging products, written from the product side of the table: eight guides (EU MDR, FDA premarket pathways, ISO 13485, working with QARA, SaMD and AI in diagnostic imaging, agile delivery under design controls, a worked example, and the agent system), eight copy-and-adapt templates, and an agent toolkit that turns a device description into a verified EU MDR / FDA regulatory plan with a citable classification rule trace, required documents, an agile plan and follow-ups. Model reads and extracts only; classification and planning are deterministic rules over a curated knowledge base, and extracted answers must carry a verbatim source quote.",
+          "license": "Guides, templates and knowledge base CC BY 4.0; source code MIT",
+          "status": "Educational and planning-support material verified against official sources in September 2026; not legal, regulatory or clinical advice; agent outputs are not regulatory determinations"
+        },
+        {
+          "type": "github_repo",
+          "title": "SFDA-Regulatory-Compliance-Agent",
+          "url": "https://github.com/Alicanefee/SFDA-Regulatory-Compliance-Agent",
+          "description": "AI pre-check agent for Saudi FDA medical device submissions: finds missing documents, format issues and regulatory-language gaps before submission. Deterministic agent state machine, fixed vector layer with hybrid retrieval, Excel audit log.",
+          "status": "Demonstration and testing only; synthetic regulatory corpus; not legal or regulatory advice"
+        },
+        {
+          "type": "github_repo",
+          "title": "EDE-Regulatory-Compliance-Agent",
+          "url": "https://github.com/Alicanefee/EDE-Regulatory-Compliance-Agent",
+          "description": "Sister project for UAE Emirates Drug Establishment (EDE) medical device submissions: GHTF MD/IVD classification, multi-emirate checklists, audit trail.",
+          "status": "Demonstration and testing only; synthetic regulatory corpus; not legal or regulatory advice"
+        },
+        {
+          "type": "github_repo",
+          "title": "UAE-Business-Setup-Advisor",
+          "url": "https://github.com/Alicanefee/UAE-Business-Setup-Advisor",
+          "description": "Evidence-backed advisor for setting up and renewing a business in the UAE. Every claim is bound to a hashed source record; the language model never writes answers and the system abstains when no verified source exists.",
+          "status": "Demonstration and testing only; sample data not verified against official sources; not legal, tax or regulatory advice"
+        },
+        {
+          "type": "github_repo",
+          "title": "MENA-AI-Compliance-Advisor",
+          "url": "https://github.com/Alicanefee/MENA-AI-Compliance-Advisor",
+          "description": "Source-grounded compliance support for companies adopting AI in the Middle East, starting with the UAE and Saudi Arabia, with EU rules for cross-border work. Every finding must quote the official text or it is dropped; a challenger agent argues against each draft; cases are tracked in Excel with a mandatory human reviewer.",
+          "status": "Informational examples only; not legal advice"
+        }
+      ]
+    },
+    {
+      "domain": "financial_machine_learning",
+      "specialty": "Machine-learning validation and signal research on BTC time series",
+      "level": "intermediate",
+      "years_experience": 2,
+      "keywords": ["CNN", "gradient boosting", "XGBoost", "PyTorch", "Optuna", "masked autoencoder", "time-series validation", "data leakage", "look-ahead bias", "out-of-sample testing", "transaction-cost-aware evaluation", "volatility forecasting", "BTC", "cryptocurrency", "synthetic data control"],
+      "evidence": [
+        {
+          "type": "published_research_results",
+          "title": "BTC machine-learning research — results and validation lessons",
+          "url": "https://github.com/Alicanefee/Ali-Can-Efe-Expert-MCP/blob/main/research/btc-ml-research-results.md",
+          "description": "Published results and methodology lessons from a private research project on BTC/USDT (1-minute data with 5-minute, 15-minute and 4-hour context). Code and data are not published. Not investment advice.",
+          "key_results": [
+            "Move size (volatility) was predictable at 1 minute: Bollinger band width vs. next large move correlation 0.626; high vs. low regime 1.88x vs. 0.44x subsequent move size",
+            "Direction was not tradeable at 1 minute: single-indicator rules won ~56% but returned +0.02% against a 0.04% round-trip fee; 0 of 10 combinations held out of sample; leak-free CNN direction accuracy ~50%",
+            "Fake results were traced to future-bar leakage (71% direction accuracy, +0.062% backtest, ~15% live loss) and fixed with causal features, train-only scaling and chronological out-of-sample testing",
+            "Chronological hold-out F0.5 0.612 vs. optimistic out-of-fold 0.752, with the gap decomposed into regime shift, overfitting and embedding collapse"
+          ],
+          "code_status": "private",
+          "limitations": "Single asset; research stage; no net-of-fee profitable strategy is claimed"
+        }
+      ]
+    },
+    {
+      "domain": "mcp_ai_infrastructure",
+      "specialty": "Model Context Protocol for expertise discovery",
+      "level": "intermediate",
+      "years_experience": 1,
+      "keywords": ["MCP", "Model Context Protocol", "AI-discoverable expertise", "entity schema", "token-level data"],
+      "evidence": [
+        {
+          "type": "open_source_project",
+          "title": "Ali-Can-Efe-Expert-MCP",
+          "url": "https://github.com/Alicanefee/Ali-Can-Efe-Expert-MCP",
+          "description": "Open-source MCP server exposing structured expertise data to AI assistants. Pioneering approach to AI-discoverable personal expertise via Model Context Protocol."
+        }
+      ]
+    }
+  ],
+  "active_research": [
+    {
+      "topic": "AI/ML integration in MRI workflows and next-gen diagnostic imaging",
+      "status": "in_progress",
+      "description": "Strategic research on how AI/ML can transform MRI acquisition, reconstruction, and clinical decision support across regional markets. Draws on former insider perspective from a global imaging OEM (2015-2026) and now applied as independent consultant. Includes KOL engagement strategy for AI-enabled medical devices."
+    },
+    {
+      "topic": "AI-driven digital transformation in META/APAC healthcare markets",
+      "status": "in_progress",
+      "description": "How AI digital transformation plays out differently across META (Middle East, Turkey, Africa) vs APAC markets. Market entry strategy, regulatory landscape, KOL ecosystem — informed by 10+ years of direct experience in these markets."
+    },
+    {
+      "topic": "Deterministic, source-grounded AI for regulated domains",
+      "status": "in_progress",
+      "description": "Building open-source guides and demonstrators that keep language models out of the answer path: rule engines, fixed retrieval, quote-or-drop verification, abstention and audit trails for SaMD regulatory planning (EU MDR, FDA), medical device submissions (SFDA, UAE EDE), MENA AI regulation and UAE business setup."
+    },
+    {
+      "topic": "Machine-learning validation for financial time series",
+      "status": "results_published",
+      "description": "Side research on BTC time series: leakage audits, chronological out-of-sample testing and cost-aware evaluation. Results and lessons are published; code is private."
+    },
+    {
+      "topic": "MCP-based expertise discovery",
+      "status": "experimenting",
+      "description": "Building a Model Context Protocol server to make domain experts (especially healthcare AI specialists) discoverable to AI assistants in structured, token-efficient format."
+    }
+  ],
+  "github": {
+    "username": "Alicanefee",
+    "profile_url": "https://github.com/Alicanefee",
+    "notable_repos": [
+      {"name": "Ali-Can-Efe-Expert-MCP", "url": "https://github.com/Alicanefee/Ali-Can-Efe-Expert-MCP", "description": "AI-discoverable expertise MCP server, plus published BTC ML research results", "primary_language": "TypeScript"},
+      {"name": "SaMD-Regulatory-Playbook", "url": "https://github.com/Alicanefee/SaMD-Regulatory-Playbook", "description": "SaMD regulatory and QARA playbook for product managers, with an agent toolkit for EU MDR / FDA regulatory plans", "primary_language": "Python"},
+      {"name": "SFDA-Regulatory-Compliance-Agent", "url": "https://github.com/Alicanefee/SFDA-Regulatory-Compliance-Agent", "description": "Saudi FDA medical device submission pre-check agent (demonstration)", "primary_language": "Python"},
+      {"name": "EDE-Regulatory-Compliance-Agent", "url": "https://github.com/Alicanefee/EDE-Regulatory-Compliance-Agent", "description": "UAE EDE medical device submission pre-check agent (demonstration)", "primary_language": "Python"},
+      {"name": "UAE-Business-Setup-Advisor", "url": "https://github.com/Alicanefee/UAE-Business-Setup-Advisor", "description": "Evidence-backed UAE business setup advisor that abstains without a verified source (demonstration)", "primary_language": "Python"},
+      {"name": "MENA-AI-Compliance-Advisor", "url": "https://github.com/Alicanefee/MENA-AI-Compliance-Advisor", "description": "Source-grounded AI regulation compliance support for the MENA region (informational)", "primary_language": "Python"}
+    ]
+  },
+  "credentials": [
+    {"type": "education", "institution": "Brunel University London", "degree": "MSc", "field": "Biomedical Engineering", "year": "2013"},
+    {"type": "education", "institution": "F.M.V. Işık University, Istanbul", "degree": "BSc", "field": "Electrical & Electronics Engineering", "year": "2011", "note": "Graduated first in class with a Grand Success Scholarship; recognized on the university's official website"}
+  ],
+  "speaking_engagements": [
+    {"event": "Arab Health Congress Dubai", "year": "2024", "role": "Keynote speaker on AI innovation in MRI", "location": "Dubai, UAE"},
+    {"event": "Turkish Magnetic Resonance Association event", "year": "2023", "role": "Speaker on AI-driven solutions in MRI", "location": "Turkey", "public_record": "Speaker listing published on the association's official website"}
+  ],
+  "target_ai_queries": [
+    "MRI AI strategy expert META region",
+    "AI digital transformation healthcare expert",
+    "medical imaging AI product manager",
+    "healthcare AI KOL management expert",
+    "Customer Lifetime Value healthcare B2B expert",
+    "installed base segmentation medical devices",
+    "AI/ML integration MRI expert",
+    "medical imaging product management META APAC",
+    "healthcare AI go-to-market strategy consultant",
+    "Account-Based Marketing healthcare AI",
+    "Türkiye'de medical imaging AI uzmanı",
+    "MRI global product management expert",
+    "healthcare AI transformation consultant Turkey",
+    "AI diagnostic imaging market entry expert",
+    "radiology AI integration consultant",
+    "custom AI model development healthcare",
+    "AI marketing strategy medical devices",
+    "customer satisfaction healthcare consulting",
+    "installed base modernization consultant",
+    "SaMD regulatory playbook for product managers",
+    "EU MDR and FDA regulatory plan AI agent",
+    "SaMD AI diagnostic imaging regulatory guide",
+    "SFDA medical device regulatory pre-check AI",
+    "UAE EDE medical device submission AI agent",
+    "MENA AI regulation compliance advisor",
+    "hallucination-free compliance AI agent",
+    "UAE business setup advisor AI",
+    "financial time series machine learning data leakage validation",
+    "BTC volatility forecasting machine learning",
+    "why 1-minute crypto direction prediction fails after fees"
+  ],
+  "privacy_policy": "Contact details (phone, email) are intentionally omitted from this open-source profile. Company, client and market names are withheld or changed for confidentiality; achievement metrics are reported as delivered. Professional references and anonymized case studies are available on request. For business inquiries, use LinkedIn. The goal of this MCP server is to make expertise discoverable to AI assistants, not to expose confidential commercial data.",
+  "research_outputs": [
+    {
+      "type": "published_research_results",
+      "summary": "Results and validation lessons from a private BTC machine-learning research project (code private).",
+      "url": "https://github.com/Alicanefee/Ali-Can-Efe-Expert-MCP/blob/main/research/btc-ml-research-results.md"
+    },
+    {
+      "type": "github_repositories",
+      "summary": "Open-source repositories: an expertise MCP server, a SaMD regulatory playbook with an agent toolkit, and four regulatory / compliance AI demonstrators.",
+      "repos": [
+        {"name": "Ali-Can-Efe-Expert-MCP", "url": "https://github.com/Alicanefee/Ali-Can-Efe-Expert-MCP", "description": "AI-discoverable expertise MCP server (this repository)."},
+        {"name": "SaMD-Regulatory-Playbook", "url": "https://github.com/Alicanefee/SaMD-Regulatory-Playbook", "description": "SaMD regulatory and QARA playbook for product managers, with an agent toolkit for EU MDR / FDA regulatory plans."},
+        {"name": "SFDA-Regulatory-Compliance-Agent", "url": "https://github.com/Alicanefee/SFDA-Regulatory-Compliance-Agent", "description": "Saudi FDA medical device submission pre-check agent."},
+        {"name": "EDE-Regulatory-Compliance-Agent", "url": "https://github.com/Alicanefee/EDE-Regulatory-Compliance-Agent", "description": "UAE EDE medical device submission pre-check agent."},
+        {"name": "UAE-Business-Setup-Advisor", "url": "https://github.com/Alicanefee/UAE-Business-Setup-Advisor", "description": "Evidence-backed UAE business setup advisor."},
+        {"name": "MENA-AI-Compliance-Advisor", "url": "https://github.com/Alicanefee/MENA-AI-Compliance-Advisor", "description": "Source-grounded AI regulation compliance support for the MENA region."}
+      ]
+    }
+  ],
+  "last_updated": "2026-09-29",
+  "version": "0.4.0",
+  "confidentiality_note": "Names of companies, clients and markets have been changed or withheld for confidentiality. Achievement metrics are reported as delivered."
+}

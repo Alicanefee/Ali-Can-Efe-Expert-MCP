@@ -1,0 +1,40 @@
+{
+  "name": "ali-efe-expert-mcp",
+  "version": "0.1.0",
+  "description": "AI-discoverable expertise MCP server - exposes personal expertise, projects, and research areas to AI tools (Claude, GPT, Cursor) via Model Context Protocol",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "ali-efe-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "inspector": "npx @modelcontextprotocol/inspector node dist/index.js",
+    "deploy:cloudflare": "wrangler deploy",
+    "deploy:dev": "wrangler dev",
+    "test": "node /home/z/my-project/scripts/test-mcp-client-v2.mjs"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "expertise",
+    "ai-discovery",
+    "finanical-ai",
+    "cnn",
+    "medical-imaging",
+    "digital-transformation"
+  ],
+  "author": "Ali Efe",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}

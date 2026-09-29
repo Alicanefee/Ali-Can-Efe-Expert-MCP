@@ -1,0 +1,222 @@
+{
+  "$schema": "https://ali-can-efe.dev/schemas/projects.json",
+  "projects": [
+    {
+      "id": "ai-mri-strategy-methodology",
+      "title": "AI Diagnostic Imaging Market Entry Methodology — META & APAC",
+      "type": "methodology_demonstrated_in_industry",
+      "status": "active",
+      "url": "https://www.linkedin.com/in/ali-can-efe",
+      "summary": "Methodology for pioneering next-generation AI diagnostic imaging market entry across META and APAC regions. Developed and executed at a global medical imaging OEM (2023-2026; name withheld for confidentiality). Now offered as an independent consulting framework for medical device manufacturers entering AI imaging markets.",
+      "role_at_time": "MRI Global Marketing Deputy Manager / Product Owner at a global medical imaging OEM",
+      "key_activities": [
+        "AI diagnostic imaging market entry strategy across 4 key markets in META and APAC",
+        "KOL engagement and onboarding for AI-enabled medical devices",
+        "Cross-functional coordination with HQ R&D, Production, Legal and 13+ regional offices",
+        "AI innovation thought leadership at Arab Health Dubai 2024 and a Turkish Magnetic Resonance Association event in 2023"
+      ],
+      "ai_keywords": ["AI diagnostic imaging", "medical imaging AI", "MRI AI", "healthcare AI", "AI digital transformation", "market entry", "KOL management"]
+    },
+    {
+      "id": "clv-ib-segmentation-methodology",
+      "title": "Customer Lifetime Value (CLV) & Installed Base Segmentation Methodology",
+      "type": "methodology_demonstrated_in_industry",
+      "status": "active",
+      "url": "https://www.linkedin.com/in/ali-can-efe",
+      "summary": "Methodology for designing and executing CLV expansion and Installed Base (IB) segmentation strategies across multiple regional markets. Developed at a global medical imaging OEM across multiple roles (2016-2026; name withheld for confidentiality). Now offered as an independent consulting framework for medical device manufacturers seeking to optimize their installed base revenue.",
+      "role_at_time": "Multiple roles at a global medical imaging OEM (Service Sales Executive → MRI Product Manager → MRI Global Marketing Deputy Manager)",
+      "key_activities": [
+        "IB segmentation across 4 key markets",
+        "ABM strategy for high-value accounts",
+        "Salesforce (SFDC) pipeline management with 95%+ forecast accuracy",
+        "Trusted advisor to C-level decision-makers across regional offices"
+      ],
+      "ai_keywords": ["Customer Lifetime Value", "CLV", "Installed Base segmentation", "ABM", "Account-Based Marketing", "SFDC", "revenue growth"]
+    },
+    {
+      "id": "Ali-Can-Efe-Expert-MCP",
+      "title": "Ali Can Efe — Expertise MCP Server",
+      "type": "open_source_product",
+      "status": "active",
+      "url": "https://github.com/Alicanefee/Ali-Can-Efe-Expert-MCP",
+      "summary": "Open-source MCP server exposing structured expertise data to AI assistants (Claude, GPT, Cursor) via Model Context Protocol. Pioneering approach to AI-discoverable personal expertise — AI tools can query this expert's background, projects, consulting services and research interests via tool calls instead of scraping web pages.",
+      "tech_stack": ["TypeScript", "MCP SDK", "Zod", "Cloudflare Workers"],
+      "architecture": {
+        "transport": "stdio (local) + SSE (remote, via Cloudflare Workers)",
+        "tools_count": 6,
+        "resources_count": 3,
+        "data_layer": "JSON entity schema (expert.json / cv.json / projects.json)"
+      },
+      "use_cases": [
+        "AI assistants query expertise and consulting services by topic — return matching domains with evidence",
+        "AI assistants retrieve CV by natural-language question",
+        "AI assistants discover target search queries where the expert intends to be discoverable",
+        "Template for other domain experts to build AI-discoverable expertise"
+      ],
+      "ai_keywords": ["MCP", "Model Context Protocol", "AI-discoverable expertise", "entity schema", "personal knowledge graph", "token-level data"]
+    },
+    {
+      "id": "btc-ml-research-results",
+      "title": "BTC Machine-Learning Research — Results and Validation Lessons",
+      "type": "published_research_results",
+      "status": "results_published_code_private",
+      "url": "https://github.com/Alicanefee/Ali-Can-Efe-Expert-MCP/blob/main/research/btc-ml-research-results.md",
+      "summary": "Published results and methodology lessons from a private research project on BTC/USDT (1-minute data with 5-minute, 15-minute and 4-hour context). Documents what held up out of sample (move-size predictability) and what did not (1-minute direction after fees), and how leakage, drift and selection-bias problems were found and fixed. The project code and data are private; only results are public. Not investment advice.",
+      "tech_stack": ["Python", "PyTorch", "XGBoost", "Optuna"],
+      "methods": [
+        "CNNs on image-style encodings of indicator windows",
+        "Masked-autoencoder (MAE) pretraining",
+        "Gradient boosting on learned embeddings",
+        "Synthetic-data control for overfit detection",
+        "Chronological train/validation/test splits with embargo"
+      ],
+      "key_results": [
+        "Bollinger band width vs. next large move: correlation 0.626; high vs. low regime 1.88x vs. 0.44x subsequent move size",
+        "Direction at 1 minute not tradeable: 56% win rate but +0.02% average return vs. 0.04% round-trip fee; 0 of 10 indicator combinations held out of sample",
+        "Fake 71% direction accuracy traced to future-bar leakage and fixed with causal features and train-only scaling",
+        "Chronological hold-out F0.5 0.612 vs. optimistic out-of-fold 0.752"
+      ],
+      "use_cases": [
+        "Reference for leakage-audit and out-of-sample validation practice in financial ML",
+        "Evidence base for the custom model development consulting service"
+      ],
+      "output_type": "published_results",
+      "limitations": "Single asset; research stage; no net-of-fee profitable strategy is claimed; code private",
+      "ai_keywords": ["financial machine learning", "BTC", "cryptocurrency", "data leakage", "look-ahead bias", "out-of-sample validation", "volatility forecasting", "transaction costs", "PyTorch", "XGBoost"]
+    },
+    {
+      "id": "SaMD-Regulatory-Playbook",
+      "title": "SaMD Regulatory & QARA Playbook for Product Managers",
+      "type": "open_source_guide_and_toolkit",
+      "status": "active (content verified against official sources in September 2026)",
+      "url": "https://github.com/Alicanefee/SaMD-Regulatory-Playbook",
+      "summary": "A practical guide, and a working agent toolkit, for product managers building Software as a Medical Device (SaMD) and AI-enabled diagnostic imaging products, written from the product side of the table rather than the regulatory-affairs side. The guides explain what EU MDR, FDA premarket review, ISO 13485, the EU AI Act and a QARA function expect from product management. The agents turn a device description into a verified regulatory plan.",
+      "tech_stack": ["Python", "YAML knowledge base", "REST API and HTML interface", "Parquet and Excel outputs"],
+      "contents": {
+        "guides": ["EU MDR essentials", "FDA premarket pathways (510(k), De Novo, PMA)", "ISO 13485 for product managers", "Working with QARA", "SaMD and AI in diagnostic imaging", "Agile delivery under design controls", "Worked example: ICH triage (fictional product)", "Agent system"],
+        "templates": 8,
+        "template_examples": ["GSPR evidence tracker", "Regulatory backlog model", "Definition of Ready and Done", "Change impact assessment", "Release readiness checklist"]
+      },
+      "architecture": {
+        "agents": "Intake, classification, research, documentation, requirements, document check, agile planner and follow-up agents run in a fixed pipeline",
+        "outputs": "Classification with a citable rule trace (EU, U.S., IMDRF, IEC 62304, AI Act), applicable laws and guidance, required documents with issuing bodies and order, new-application or renewal check, agile plan with owners and RAID log, email drafts and calendar file",
+        "hallucination_control": "The model only reads and extracts. Classification, applicability, sequencing and scheduling are deterministic rules over a curated, versioned knowledge base. Every extracted answer must carry a verbatim quote found in the source; unknown inputs become open questions, never guesses."
+      },
+      "license": "Guides, templates and knowledge base CC BY 4.0; source code MIT",
+      "disclaimer": "Educational and planning-support material. It is not legal, regulatory or clinical advice, the agents' outputs are not regulatory determinations, and the software is not a medical device.",
+      "use_cases": [
+        "Product managers and owners working on SaMD or medical imaging software",
+        "Engineers and clinical specialists moving into product roles in regulated environments",
+        "R&D, QARA and clinical teams that want a shared vocabulary with product management"
+      ],
+      "ai_keywords": ["SaMD", "Software as a Medical Device", "EU MDR", "FDA 510(k)", "ISO 13485", "IEC 62304", "EU AI Act", "QARA", "design controls", "agile regulated software", "AI diagnostic imaging regulation", "regulatory AI", "hallucination prevention"]
+    },
+    {
+      "id": "SFDA-Regulatory-Compliance-Agent",
+      "title": "SFDA Regulatory Compliance Agent",
+      "type": "open_source_demonstrator",
+      "status": "v0.1.0 MVP (demonstration and testing only)",
+      "url": "https://github.com/Alicanefee/SFDA-Regulatory-Compliance-Agent",
+      "summary": "AI pre-check agent for Saudi FDA (SFDA) medical device submissions. Scans a submission package against a regulatory corpus and flags missing documents, format issues and regulatory-language gaps before submission. LLM does not pick agents: a YAML-driven state machine controls the flow.",
+      "tech_stack": ["Python", "Streamlit", "BGE-M3", "BM25", "Cohere Rerank", "openpyxl"],
+      "architecture": {
+        "layers": "4-layer: document ingest and standardization, fixed vector layer with hybrid retrieval, deterministic agent graph, UI with hash-chained Excel audit log",
+        "agent_roles": 7
+      },
+      "disclaimer": "Demonstration and testing only. The regulatory corpus is synthetic and the sample submission is fictional. Output is not legal or regulatory advice.",
+      "ai_keywords": ["SFDA", "Saudi FDA", "medical device regulation", "regulatory AI", "submission pre-check", "compliance automation", "deterministic agents"]
+    },
+    {
+      "id": "EDE-Regulatory-Compliance-Agent",
+      "title": "EDE Regulatory Compliance Agent",
+      "type": "open_source_demonstrator",
+      "status": "v0.2 (demonstration and testing only)",
+      "url": "https://github.com/Alicanefee/EDE-Regulatory-Compliance-Agent",
+      "summary": "AI pre-check agent for UAE Emirates Drug Establishment (EDE) medical device submissions. Sister project of the SFDA agent with the same deterministic 4-layer architecture: GHTF MD/IVD classification, multi-emirate checklists and an audit trail.",
+      "tech_stack": ["Python", "Streamlit", "BGE-M3", "BM25", "Cohere Rerank", "openpyxl", "pytest"],
+      "disclaimer": "Demonstration and testing only. The regulatory corpus is synthetic and the sample submission is fictional. Output is not legal or regulatory advice.",
+      "ai_keywords": ["UAE EDE", "Emirates Drug Establishment", "medical device regulation", "GHTF classification", "regulatory AI", "compliance automation"]
+    },
+    {
+      "id": "UAE-Business-Setup-Advisor",
+      "title": "UAE Business Setup Advisor",
+      "type": "open_source_demonstrator",
+      "status": "v0.1.0 (demonstration and testing only)",
+      "url": "https://github.com/Alicanefee/UAE-Business-Setup-Advisor",
+      "summary": "Evidence-backed advisor for setting up and renewing a business in the UAE (mainland, free zones, multinationals). Every claim is bound to a source record with a SHA-256 hash; the language model never writes answers, and when no verified record covers a case the system abstains and logs it to an escalation queue.",
+      "tech_stack": ["Python", "FastAPI", "SSE", "YAML rules", "pytest"],
+      "architecture": {
+        "verification": "Three stages: schema check, source exists and hash matches, source is in force today",
+        "answering": "Deterministic classification and template-based answers; optional LLM only chooses from fixed vocabularies",
+        "state_machine": "Explicit allowed-transition matrix for every step"
+      },
+      "disclaimer": "Demonstration and testing only. Records are sample data not verified against official sources. Output is not legal, tax or regulatory advice.",
+      "ai_keywords": ["UAE business setup", "hallucination prevention", "source-grounded AI", "abstention", "audit trail", "mainland vs free zone"]
+    },
+    {
+      "id": "MENA-AI-Compliance-Advisor",
+      "title": "MENA AI Compliance Advisor",
+      "type": "open_source_demonstrator",
+      "status": "v0.1.0 (informational examples only)",
+      "url": "https://github.com/Alicanefee/MENA-AI-Compliance-Advisor",
+      "summary": "Source-grounded compliance support for companies adopting AI in the Middle East, starting with the UAE and Saudi Arabia, with EU rules for cross-border work. Answers questions from official texts (labour law, PDPL, AI ethics principles, EU AI Act, GDPR), tracks cases and documents in Excel, and offers staff training modules. Every finding must quote the official text or it is dropped.",
+      "tech_stack": ["Python", "Excel case tracking", "pytest"],
+      "architecture": {
+        "verification": "Deterministic verifier drops any finding whose quote is not in the cited passage",
+        "dissent": "A separate challenger agent argues against each draft; disputed findings are shown as unresolved",
+        "human_in_the_loop": "A case cannot be approved without a named human reviewer"
+      },
+      "disclaimer": "Informational examples only; not legal advice. Indexed texts may be outdated or unofficial translations.",
+      "ai_keywords": ["MENA AI regulation", "UAE PDPL", "Saudi PDPL", "EU AI Act", "GDPR", "compliance advisor", "quote-or-drop verification"]
+    }
+  ],
+  "research_outputs": {
+    "format": "Open-source repositories and published research results",
+    "published_results": {
+      "name": "BTC machine-learning research — results and validation lessons",
+      "url": "https://github.com/Alicanefee/Ali-Can-Efe-Expert-MCP/blob/main/research/btc-ml-research-results.md",
+      "type": "Machine learning research results (code private)"
+    },
+    "repos": [
+      {"name": "Ali-Can-Efe-Expert-MCP", "url": "https://github.com/Alicanefee/Ali-Can-Efe-Expert-MCP", "type": "AI infrastructure", "description": "AI-discoverable expertise MCP server"},
+      {"name": "SaMD-Regulatory-Playbook", "url": "https://github.com/Alicanefee/SaMD-Regulatory-Playbook", "type": "Guide and regulatory AI toolkit", "description": "SaMD regulatory and QARA playbook for product managers, with an agent toolkit for EU MDR / FDA regulatory plans"},
+      {"name": "SFDA-Regulatory-Compliance-Agent", "url": "https://github.com/Alicanefee/SFDA-Regulatory-Compliance-Agent", "type": "Regulatory AI demonstrator", "description": "Saudi FDA medical device submission pre-check agent"},
+      {"name": "EDE-Regulatory-Compliance-Agent", "url": "https://github.com/Alicanefee/EDE-Regulatory-Compliance-Agent", "type": "Regulatory AI demonstrator", "description": "UAE EDE medical device submission pre-check agent"},
+      {"name": "UAE-Business-Setup-Advisor", "url": "https://github.com/Alicanefee/UAE-Business-Setup-Advisor", "type": "Compliance AI demonstrator", "description": "Evidence-backed UAE business setup advisor"},
+      {"name": "MENA-AI-Compliance-Advisor", "url": "https://github.com/Alicanefee/MENA-AI-Compliance-Advisor", "type": "Compliance AI demonstrator", "description": "Source-grounded AI regulation compliance support for the MENA region"}
+    ]
+  },
+  "research_interests": [
+    {
+      "title": "AI/ML Integration in MRI Workflows and Next-Gen Diagnostic Imaging",
+      "summary": "Strategic research on how AI/ML can transform MRI acquisition, reconstruction, and clinical decision support. KOL engagement strategy for AI-enabled medical devices across META and APAC markets.",
+      "areas": ["AI diagnostic imaging", "MRI AI", "healthcare AI strategy", "KOL management"]
+    },
+    {
+      "title": "AI Digital Transformation in META/APAC Healthcare Markets",
+      "summary": "How AI digital transformation plays out differently across META (Middle East, Turkey, Africa) vs APAC markets — market entry strategy, regulatory landscape, KOL ecosystem.",
+      "areas": ["AI digital transformation", "healthcare AI", "Go-To-Market", "market entry"]
+    },
+    {
+      "title": "Customer Lifetime Value Optimization in B2B Healthcare",
+      "summary": "Data-driven CLV optimization methodologies for medical device installed bases — combining ABM, IB segmentation, and SFDC pipeline analytics to expand revenue in mature healthcare markets.",
+      "areas": ["CLV", "IB segmentation", "ABM", "B2B healthcare"]
+    },
+    {
+      "title": "Deterministic, Source-Grounded AI for Regulated Domains",
+      "summary": "Keeping language models out of the answer path in regulated settings: rule engines, fixed retrieval, quote-or-drop verification, abstention and audit trails for SaMD regulatory planning, medical device submissions and MENA AI regulation.",
+      "areas": ["regulatory AI", "compliance automation", "hallucination prevention", "medical device regulation", "SaMD"]
+    },
+    {
+      "title": "Validation Discipline in Financial Machine Learning",
+      "summary": "Leakage audits, chronological out-of-sample testing and cost-aware evaluation, illustrated by published results from a private BTC research project.",
+      "areas": ["financial ML", "data leakage", "out-of-sample validation", "transaction costs"]
+    },
+    {
+      "title": "MCP-based Expertise Discovery for Domain Experts",
+      "summary": "Using Model Context Protocol to make domain experts (especially healthcare AI specialists) discoverable to AI assistants in structured, token-efficient format. Open-source approach to personal knowledge graphs.",
+      "areas": ["MCP", "AI infrastructure", "expert systems", "personal knowledge graph"]
+    }
+  ],
+  "confidentiality_note": "Names of companies, clients and markets have been changed or withheld for confidentiality. Achievement metrics are reported as delivered."
+}

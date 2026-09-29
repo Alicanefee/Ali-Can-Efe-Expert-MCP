@@ -1,0 +1,48 @@
+name: CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Type-check
+        run: npx tsc --noEmit
+
+      - name: Build
+        run: npm run build
+
+      - name: Verify server starts
+        run: |
+          timeout 5 node dist/index.js < /dev/null 2>&1 | tee /tmp/server-output.txt
+          grep -q "Server started" /tmp/server-output.txt
+
+      - name: Verify resources load
+        run: |
+          timeout 5 node dist/index.js < /dev/null 2>&1 | tee /tmp/server-output.txt
+          grep -q "Ali Can Efe" /tmp/server-output.txt
+          grep -q "medical_imaging_product_management" /tmp/server-output.txt
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: server-output
+          path: /tmp/server-output.txt
