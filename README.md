@@ -112,6 +112,11 @@ Deploy sonrası adresler (workers.dev alt alan adınız deploy çıktısında ya
 - `https://ali-can-efe-mcp.<subdomain>.workers.dev/` — bilgi sayfası ve istemci ayar örnekleri
 - `https://ali-can-efe-mcp.<subdomain>.workers.dev/mcp` — MCP uç noktası
 
+İlk deploy'dan önce Cloudflare hesabınızda **Workers & Pages** bölümünden bir `workers.dev`
+alt alan adı kaydedin. Wrangler, etkileşimsiz GitHub Actions ortamında bu kurulum istemini
+yanıtlayamaz; alt alan adı yoksa deploy başarısız olur. Özel alan adı kullanacaksanız bunun
+yerine `wrangler.toml` içinde ilgili route'u yapılandırın.
+
 Doğrulama (yerelde `npm run deploy:dev`, canlıda URL vererek):
 
 ```bash
