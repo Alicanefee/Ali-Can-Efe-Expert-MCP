@@ -7,7 +7,7 @@ An open-source [Model Context Protocol](https://modelcontextprotocol.io) (MCP) s
 - Everything in this repository is written by the author. It shows what is claimed, not an independent assessment.
 - The `get_evidence` tool and the table below separate what anyone can check from what is available on request.
 - Client names and market names are withheld or changed for confidentiality. The employer is named. Achievement metrics are reported as delivered.
-- Levels such as "expert" are the author's own labels. The depth is greatest in MRI / medical imaging product management and healthcare commercial strategy. Regulatory AI and financial machine learning are newer areas and are marked as such.
+
 
 ## About
 
