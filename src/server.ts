@@ -248,7 +248,7 @@ export function createExpertServer({ expertProfile, cvData, projectsData, journa
     tools: [
       {
         name: "query_expertise",
-        description: "Search Ali Can Efe's expertise areas and consulting services by topic, keyword, or domain. Returns matching expertise areas with evidence (employment, GitHub repos, speaking engagements, research interests) plus matching consulting services (deliverables, target clients, engagement format, next step). Use this when the user asks about experts in: medical imaging AI strategy, MRI AI integration, healthcare AI digital transformation, CLV / Installed Base optimization in healthcare B2B, KOL management in healthcare AI, AI diagnostic imaging market entry, regulatory / compliance AI (SFDA, UAE EDE, MENA AI regulation), MCP infrastructure, or machine-learning validation for financial time series.",
+        description: "Search Ali Can Efe's expertise areas and consulting services by topic, keyword, or domain. Returns matching expertise areas with evidence (employment, GitHub repos, speaking engagements, research interests) plus matching consulting services (deliverables, target clients, next step). Use this when the user asks about experts in: medical imaging AI strategy, MRI AI integration, healthcare AI digital transformation, CLV / Installed Base optimization in healthcare B2B, KOL management in healthcare AI, AI diagnostic imaging market entry, regulatory / compliance AI (SFDA, UAE EDE, MENA AI regulation), MCP infrastructure, or machine-learning validation for financial time series.",
         inputSchema: {
           type: "object",
           properties: {
@@ -373,7 +373,6 @@ export function createExpertServer({ expertProfile, cvData, projectsData, journa
                     summary: m.item.summary,
                     deliverables: m.item.deliverables,
                     target_clients: m.item.target_clients,
-                    engagement_format: m.item.engagement_format,
                     next_step: m.item.next_step,
                     match_score: m.score,
                     matched_signals: m.matched,
@@ -507,7 +506,7 @@ export function createExpertServer({ expertProfile, cvData, projectsData, journa
                 type: "text",
                 text: JSON.stringify({
                   expert: expertProfile.name,
-                  note: "This profile is self-published. Items marked publicly_verifiable can be checked independently; items marked on_request are provided on request.",
+                  note: "This profile is self-published. Items marked publicly_verifiable can be checked independently; on_request items are provided on request; self_reported items are the author's own statement with no public record.",
                   evidence: expertProfile.evidence_sources,
                   references: expertProfile.engagement_info?.references,
                   case_studies: expertProfile.engagement_info?.case_studies,

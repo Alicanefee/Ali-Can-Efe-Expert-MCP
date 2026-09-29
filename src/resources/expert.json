@@ -22,8 +22,7 @@
       "summary": "End-to-end consulting for integrating AI/ML capabilities into existing radiology workflows — from vendor selection to clinical validation and KOL engagement.",
       "deliverables": ["Current-state workflow audit", "AI vendor evaluation framework", "Pilot deployment roadmap", "KOL engagement strategy for AI-enabled devices", "Clinical outcome measurement methodology"],
       "target_clients": ["hospitals", "radiology networks", "medical device OEMs", "AI imaging startups"],
-      "engagement_format": "4-8 week consulting sprint",
-      "next_step": "Start with a scoping conversation: share your current radiology workflow, modality mix and the AI use case you are evaluating."
+      "next_step": "For consulting or more information, get in touch via LinkedIn."
     },
     {
       "id": "daily-operations-ai-enablement",
@@ -31,8 +30,7 @@
       "summary": "Practical AI integration to streamline daily clinical and operational tasks — scheduling, reporting, image acquisition optimization, and operational efficiency gains.",
       "deliverables": ["Operational task audit and AI use-case mapping", "Vendor/tool stack recommendation", "Change management and training plan", "ROI measurement framework"],
       "target_clients": ["hospitals", "imaging centers", "clinics", "medical device OEMs"],
-      "engagement_format": "6-12 week implementation program",
-      "next_step": "Start with a scoping conversation: share the operational tasks that consume the most staff time today."
+      "next_step": "For consulting or more information, get in touch via LinkedIn."
     },
     {
       "id": "custom-model-development",
@@ -40,8 +38,7 @@
       "summary": "Bespoke CNN / ML model development for healthcare imaging applications or financial time-series forecasting. Combines domain expertise with deep technical capability (PyTorch, CNN architectures, gradient boosting) and a validation-first approach: leakage audits, chronological out-of-sample testing and cost-aware evaluation.",
       "deliverables": ["Problem framing and dataset specification", "Custom architecture design", "Model training and validation", "Production deployment guidance", "Model card and documentation"],
       "target_clients": ["medical device OEMs", "healthcare startups", "fintech firms", "quantitative funds"],
-      "engagement_format": "3-6 month engagement",
-      "next_step": "Start with a scoping conversation: share the prediction problem, the data you have and your validation requirements."
+      "next_step": "For consulting or more information, get in touch via LinkedIn."
     },
     {
       "id": "ai-marketing-strategy",
@@ -49,8 +46,7 @@
       "summary": "Marketing strategy consulting that combines AI/ML capabilities with proven META/APAC commercial playbooks — CLV optimization, IB segmentation, ABM, KOL engagement.",
       "deliverables": ["Marketing strategy audit", "CLV / IB segmentation framework", "Account-Based Marketing playbook", "KOL engagement roadmap", "AI-enabled campaign design"],
       "target_clients": ["medical device OEMs", "healthcare startups", "B2B healthcare firms"],
-      "engagement_format": "4-8 week strategy engagement",
-      "next_step": "Start with a scoping conversation: share your product portfolio, target regions and current go-to-market approach."
+      "next_step": "For consulting or more information, get in touch via LinkedIn."
     },
     {
       "id": "customer-satisfaction-consulting",
@@ -58,8 +54,7 @@
       "summary": "Data-driven consulting to optimize customer satisfaction across the installed base — combining service contract design, IB modernization, and CLV expansion methodologies.",
       "deliverables": ["Customer satisfaction diagnostic", "Service contract re-design", "CLV expansion roadmap", "Installed base modernization plan", "SFDC pipeline & KPI dashboard setup"],
       "target_clients": ["medical device OEMs", "hospitals", "healthcare service providers"],
-      "engagement_format": "6-12 week program",
-      "next_step": "Start with a scoping conversation: share your installed base size, service contract mix and the satisfaction data you collect."
+      "next_step": "For consulting or more information, get in touch via LinkedIn."
     },
     {
       "id": "installed-base-modernization",
@@ -67,13 +62,12 @@
       "summary": "Transform an aging installed base from cost center to recurring revenue engine — combining IB segmentation, contract redesign, ABM targeting, and AI-driven up-sell/cross-sell identification.",
       "deliverables": ["IB segmentation audit", "Contract structure redesign", "Up-sell / cross-sell opportunity mapping", "ABM playbook for high-value accounts", "Revenue expansion roadmap with KPIs"],
       "target_clients": ["medical device OEMs", "industrial equipment manufacturers"],
-      "engagement_format": "8-12 week program",
-      "next_step": "Start with a scoping conversation: share the age profile of your installed base and your current contract structure."
+      "next_step": "For consulting or more information, get in touch via LinkedIn."
     }
   ],
   "engagement_info": {
     "contact": "https://www.linkedin.com/in/ali-can-efe",
-    "first_step": "A scoping conversation to define goals, available data and success criteria.",
+    "first_step": "Get in touch via LinkedIn for consulting or more information.",
     "case_studies": "Anonymized case studies are available on request (under NDA where applicable).",
     "references": "Professional references (LinkedIn recommendations, client and KOL testimonials) are available on request."
   },
@@ -302,7 +296,7 @@
     {"type": "education", "institution": "F.M.V. Işık University, Istanbul", "degree": "BSc", "field": "Electrical & Electronics Engineering", "year": "2011", "note": "First in the Department of Electrical & Electronics Engineering with a high honor degree; Grand Success Scholarship. Announced at the 2010-2011 graduation ceremony (recording linked in the evidence list)."}
   ],
   "speaking_engagements": [
-    {"event": "Arab Health Congress Dubai", "year": "2024", "role": "Keynote speaker on AI innovation in MRI", "location": "Dubai, UAE"},
+    {"event": "Arab Health Congress Dubai", "year": "2024", "role": "Keynote speaker on AI innovation in MRI", "location": "Dubai, UAE", "public_record": "None located (self-reported)"},
     {"event": "Turkish Magnetic Resonance Association (TMRD) 26th Annual Scientific Meeting, Canon Medical satellite symposium", "year": "2022", "period": "26-28 May 2022", "role": "Speaker: \"Smart MRI for top-level efficiency: deep-learning reconstruction and workflow automation\"", "title_tr": "Akıllı MR ile Üst Düzey Verimlilik: Derin Öğrenme Rekonstrüksiyon & İş Akışlarında Otomasyon", "location": "Turkey", "public_record": "Listed in the official meeting programme, PDF page 10 (13:00-13:30)", "url": "https://tmrd.org.tr/uploads/tbl_bildiriler/62a05a9c99ced_tbl_bildiriler2022111524.pdf"},
     {"event": "Turkish Magnetic Resonance Association (TMRD) 27th Annual Scientific Meeting, Canon satellite symposium", "year": "2023", "date": "2023-05-13", "role": "Co-presenter (with Katsuhiro Ito): \"Discover the full potential of MRI images with PIQE\"", "title_tr": "PIQE ile MRI Görüntülerinin Tam Potansiyelini Keşfedin", "location": "Ankara, Turkey", "public_record": "Listed in the official meeting programme, PDF page 8 (Saturday 13 May, Hall A, 11:30-12:15)", "url": "https://tmrd.org.tr/uploads/tbl_bildiriler/646c70f541b43_tbl_bildiriler2023105325.pdf"}
   ],
@@ -353,8 +347,8 @@
     {
       "claim": "Keynote speaker at Arab Health Congress, Dubai, 2024",
       "category": "speaking",
-      "verification": "on_request",
-      "note": "Programme and session details available on request."
+      "verification": "self_reported",
+      "note": "No programme or other public record has been located. This is the author's own statement."
     },
     {
       "claim": "BSc Electrical & Electronics Engineering, F.M.V. Işık University (2011), first in the department with a high honor degree",

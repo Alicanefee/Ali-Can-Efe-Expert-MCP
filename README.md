@@ -21,7 +21,7 @@ Areas covered: AI/ML integration in medical imaging, installed-base and customer
 - **Automated trading research.** BTC research based on image-style "fingerprint" encodings of market data. Development continues and recent experiments look promising (self-reported, not yet published). The plan is to release the methodology and code as an open-source project.
 - **Supporting documents.** Programmes, certificates and similar records for the claims below are added as I collect them.
 
-For consulting inquiries, get in touch via [LinkedIn](https://www.linkedin.com/in/ali-can-efe). The `get_journal` tool returns this section with a dated log of what has been built and presented, and the reason behind each project.
+For consulting or more information, get in touch via [LinkedIn](https://www.linkedin.com/in/ali-can-efe). The `get_journal` tool returns this section with a dated log of what has been built and presented, and the reason behind each project.
 
 ## Evidence and sources
 
@@ -29,7 +29,7 @@ For consulting inquiries, get in touch via [LinkedIn](https://www.linkedin.com/i
 |---|---|
 | Career history (Canon Medical Systems, 2015-2026) and contact | [LinkedIn profile](https://www.linkedin.com/in/ali-can-efe). It is written by the author. Professional references are available on request. |
 | Speaker at Canon satellite symposia at the Turkish Magnetic Resonance Association (TMRD) annual meetings | Official programmes on the association's website: [2022, page 10](https://tmrd.org.tr/uploads/tbl_bildiriler/62a05a9c99ced_tbl_bildiriler2022111524.pdf) ("Akıllı MR ile Üst Düzey Verimlilik: Derin Öğrenme Rekonstrüksiyon & İş Akışlarında Otomasyon") and [2023, page 8](https://tmrd.org.tr/uploads/tbl_bildiriler/646c70f541b43_tbl_bildiriler2023105325.pdf) ("PIQE ile MRI Görüntülerinin Tam Potansiyelini Keşfedin", with Katsuhiro Ito). Both were sponsor symposia, not scientific abstract sessions. The files are large (48 MB and 45 MB). |
-| Keynote speaker at Arab Health, Dubai, 2024 | Programme and session details on request |
+| Keynote speaker at Arab Health, Dubai, 2024 | Self-reported. No programme or other public record has been located |
 | BSc, first in the department with a high honor degree (Işık University, 2011) | [2010-2011 graduation ceremony recording](https://www.youtube.com/watch?v=bD-lcxIjZfk&t=4800s), announcement from about 1:20:00. The recording has no captions. Official documents available on request |
 | MSc, Brunel University London (2013) | Degree certificate on request |
 | Source code and documentation | The repositories below, open for inspection |

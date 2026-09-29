@@ -18,13 +18,13 @@
         "Open-source work on a Model Context Protocol server that publishes this profile, and on deterministic, source-grounded compliance AI demonstrators for SFDA and UAE EDE medical device pre-checks, MENA AI regulation and UAE business setup",
         "Published results and validation lessons from a private BTC machine-learning research project"
       ],
-      "service_packages": [
-        "AI Integration for Radiology Systems (4-8 week sprint)",
-        "AI Enablement for Daily Healthcare Operations (6-12 week program)",
-        "Custom AI Model Development for Healthcare & Finance (3-6 month engagement)",
-        "AI-Driven Marketing Strategy for Medical Device Manufacturers (4-8 week engagement)",
-        "Customer Satisfaction & CLV Optimization Consulting (6-12 week program)",
-        "Installed Base Modernization & Revenue Expansion (8-12 week program)"
+      "services": [
+        "AI Integration for Radiology Systems",
+        "AI Enablement for Daily Healthcare Operations",
+        "Custom AI Model Development for Healthcare & Finance",
+        "AI-Driven Marketing Strategy for Medical Device Manufacturers",
+        "Customer Satisfaction & CLV Optimization Consulting",
+        "Installed Base Modernization & Revenue Expansion"
       ],
       "target_clients": [
         "global medical imaging device manufacturers (OEMs)",
@@ -121,7 +121,7 @@
     "languages": ["English (Excellent - Business & Strategic Communication)", "Turkish (Native)"]
   },
   "speaking_engagements": [
-    {"event": "Arab Health Congress", "year": 2024, "location": "Dubai, UAE", "role": "Keynote speaker on AI innovation in MRI"},
+    {"event": "Arab Health Congress", "year": 2024, "location": "Dubai, UAE", "role": "Keynote speaker on AI innovation in MRI", "public_record": "None located (self-reported)"},
     {"event": "Turkish Magnetic Resonance Association (TMRD) 26th Annual Scientific Meeting, Canon Medical satellite symposium", "year": 2022, "period": "26-28 May 2022", "location": "Turkey", "role": "Speaker: \"Smart MRI for top-level efficiency: deep-learning reconstruction and workflow automation\"", "title_tr": "Akıllı MR ile Üst Düzey Verimlilik: Derin Öğrenme Rekonstrüksiyon & İş Akışlarında Otomasyon", "public_record": "Listed in the official meeting programme, PDF page 10 (13:00-13:30)", "url": "https://tmrd.org.tr/uploads/tbl_bildiriler/62a05a9c99ced_tbl_bildiriler2022111524.pdf"},
     {"event": "Turkish Magnetic Resonance Association (TMRD) 27th Annual Scientific Meeting, Canon satellite symposium", "year": 2023, "date": "2023-05-13", "location": "Ankara, Turkey", "role": "Co-presenter (with Katsuhiro Ito): \"Discover the full potential of MRI images with PIQE\"", "title_tr": "PIQE ile MRI Görüntülerinin Tam Potansiyelini Keşfedin", "public_record": "Listed in the official meeting programme, PDF page 8 (Saturday 13 May, Hall A, 11:30-12:15)", "url": "https://tmrd.org.tr/uploads/tbl_bildiriler/646c70f541b43_tbl_bildiriler2023105325.pdf"}
   ],
